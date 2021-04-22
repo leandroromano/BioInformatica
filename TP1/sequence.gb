@@ -1,0 +1,326 @@
+LOCUS       NM_001040633            3114 bp    mRNA    linear   PRI 06-APR-2021
+DEFINITION  Homo sapiens protein kinase AMP-activated non-catalytic subunit
+            gamma 2 (PRKAG2), transcript variant c, mRNA.
+ACCESSION   NM_001040633
+VERSION     NM_001040633.2
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3114)
+  AUTHORS   Ahamed H, Balegadde AV, Menon S, Menon R, Ramachandran A, Mathew N,
+            Natarajan KU, Nair IR, Kannan R, Shankar M, Mathew OK, Nguyen TT,
+            Gupta R, Stawiski EW, Ramprasad VL, Seshagiri S and Phalke S.
+  TITLE     Phenotypic expression and clinical outcomes in a South Asian PRKAG2
+            cardiomyopathy cohort
+  JOURNAL   Sci Rep 10 (1), 20610 (2020)
+   PUBMED   33244021
+  REMARK    GeneRIF: Phenotypic expression and clinical outcomes in a South
+            Asian PRKAG2 cardiomyopathy cohort.
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3114)
+  AUTHORS   Haenig C, Atias N, Taylor AK, Mazza A, Schaefer MH, Russ J,
+            Riechers SP, Jain S, Coughlin M, Fontaine JF, Freibaum BD,
+            Brusendorf L, Zenkner M, Porras P, Stroedicke M, Schnoegl S,
+            Arnsburg K, Boeddrich A, Pigazzini L, Heutink P, Taylor JP,
+            Kirstein J, Andrade-Navarro MA, Sharan R and Wanker EE.
+  TITLE     Interactome Mapping Provides a Network of Neurodegenerative Disease
+            Proteins and Uncovers Widespread Protein Aggregation in Affected
+            Brains
+  JOURNAL   Cell Rep 32 (7), 108050 (2020)
+   PUBMED   32814053
+REFERENCE   3  (bases 1 to 3114)
+  AUTHORS   Lopez-Sainz A, Dominguez F, Lopes LR, Ochoa JP, Barriales-Villa R,
+            Climent V, Linschoten M, Tiron C, Chiriatti C, Marques N, Rasmussen
+            TB, Espinosa MA, Beinart R, Quarta G, Cesar S, Field E,
+            Garcia-Pinilla JM, Bilinska Z, Muir AR, Roberts AM, Santas E, Zorio
+            E, Pena-Pena ML, Navarro M, Fernandez A, Palomino-Doza J, Azevedo
+            O, Lorenzini M, Garcia-Alvarez MI, Bento D, Jensen MK, Mendez I,
+            Pezzoli L, Sarquella-Brugada G, Campuzano O, Gonzalez-Lopez E,
+            Mogensen J, Kaski JP, Arad M, Brugada R, Asselbergs FW, Monserrat
+            L, Olivotto I, Elliott PM and Garcia-Pavia P.
+  CONSRTM   European Genetic Cardiomyopathies Initiative Investigators
+  TITLE     Clinical Features and Natural History of PRKAG2 Variant Cardiac
+            Glycogenosis
+  JOURNAL   J Am Coll Cardiol 76 (2), 186-197 (2020)
+   PUBMED   32646569
+  REMARK    GeneRIF: Clinical Features and Natural History of PRKAG2 Variant
+            Cardiac Glycogenosis.
+REFERENCE   4  (bases 1 to 3114)
+  AUTHORS   Hu D, Hu D, Liu L, Barr D, Liu Y, Balderrabano-Saucedo N, Wang B,
+            Zhu F, Xue Y, Wu S, Song B, McManus H, Murphy K, Loes K, Adler A,
+            Monserrat L, Antzelevitch C, Gollob MH, Elliott PM and
+            Barajas-Martinez H.
+  TITLE     Identification, clinical manifestation and structural mechanisms of
+            mutations in AMPK associated cardiac glycogen storage disease
+  JOURNAL   EBioMedicine 54, 102723 (2020)
+   PUBMED   32259713
+  REMARK    GeneRIF: Identification, clinical manifestation and structural
+            mechanisms of mutations in AMPK associated cardiac glycogen storage
+            disease.
+REFERENCE   5  (bases 1 to 3114)
+  AUTHORS   Gollob MH, Green MS, Tang AS, Gollob T, Karibe A, Ali Hassan AS,
+            Ahmad F, Lozado R, Shah G, Fananapazir L, Bachinski LL and Roberts
+            R.
+  TITLE     Identification of a gene responsible for familial
+            Wolff-Parkinson-White syndrome
+  JOURNAL   N Engl J Med 344 (24), 1823-1831 (2001)
+   PUBMED   11407343
+  REMARK    Erratum:[N Engl J Med 2001 Aug 16;345(7):552. Hassan AS [corrected
+            to Ali Hassan AS]]
+REFERENCE   6  (bases 1 to 3114)
+  AUTHORS   Blair E, Redwood C, Ashrafian H, Oliveira M, Broxholme J, Kerr B,
+            Salmon A, Ostman-Smith I and Watkins H.
+  TITLE     Mutations in the gamma(2) subunit of AMP-activated protein kinase
+            cause familial hypertrophic cardiomyopathy: evidence for the
+            central role of energy compromise in disease pathogenesis
+  JOURNAL   Hum Mol Genet 10 (11), 1215-1220 (2001)
+   PUBMED   11371514
+REFERENCE   7  (bases 1 to 3114)
+  AUTHORS   MacRae CA, Ghaisas N, Kass S, Donnelly S, Basson CT, Watkins HC,
+            Anan R, Thierfelder LH, McGarry K, Rowland E et al.
+  TITLE     Familial Hypertrophic cardiomyopathy with Wolff-Parkinson-White
+            syndrome maps to a locus on chromosome 7q3
+  JOURNAL   J Clin Invest 96 (3), 1216-1220 (1995)
+   PUBMED   7657794
+REFERENCE   8  (bases 1 to 3114)
+  AUTHORS   Hofmann,B., Nishanian,P., Fan,J., Nguyen,T. and Fahey,J.L.
+  TITLE     HIV Gag p17 protein impairs proliferation of normal lymphocytes in
+            vitro
+  JOURNAL   AIDS 8 (7), 1016-1017 (1994)
+   PUBMED   7946090
+REFERENCE   9  (bases 1 to 3114)
+  AUTHORS   Hofmann B, Nishanian P, Nguyen T, Insixiengmay P and Fahey JL.
+  TITLE     Human immunodeficiency virus proteins induce the inhibitory
+            cAMP/protein kinase A pathway in normal lymphocytes
+  JOURNAL   Proc Natl Acad Sci U S A 90 (14), 6676-6680 (1993)
+   PUBMED   7688126
+REFERENCE   10 (bases 1 to 3114)
+  AUTHORS   Hofmann B, Nishanian P, Baldwin RL, Insixiengmay P, Nel A and Fahey
+            JL.
+  TITLE     HIV inhibits the early steps of lymphocyte activation, including
+            initiation of inositol phospholipid metabolism
+  JOURNAL   J Immunol 145 (11), 3699-3705 (1990)
+   PUBMED   1978848
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA187928.1, DA084454.1,
+            BC068598.1, DA697901.1 and BC020540.1.
+            On Aug 13, 2020 this sequence version replaced NM_001040633.1.
+            
+            Summary: AMP-activated protein kinase (AMPK) is a heterotrimeric
+            protein composed of a catalytic alpha subunit, a noncatalytic beta
+            subunit, and a noncatalytic regulatory gamma subunit. Various forms
+            of each of these subunits exist, encoded by different genes. AMPK
+            is an important energy-sensing enzyme that monitors cellular energy
+            status and functions by inactivating key enzymes involved in
+            regulating de novo biosynthesis of fatty acid and cholesterol. This
+            gene is a member of the AMPK gamma subunit family. Mutations in
+            this gene have been associated with Wolff-Parkinson-White syndrome,
+            familial hypertrophic cardiomyopathy, and glycogen storage disease
+            of the heart. Alternate transcriptional splice variants, encoding
+            different isoforms, have been characterized. [provided by RefSeq,
+            Jan 2015].
+            
+            Transcript Variant: This variant (c) contains an alternate 5' exon
+            and the translation starts from a downstream AUG codon, compared to
+            variant a. The resulting isoform (c) has a shorter N-terminus when
+            compared to isoform a.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: GQ900975.1, BC068598.1 [ECO:0000332]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-19                DA187928.1         94-112
+            20-184              DA084454.1         32-196
+            185-923             BC068598.1         166-904
+            924-925             DA697901.1         570-571
+            926-1233            BC068598.1         907-1214
+            1234-3114           BC020540.1         221-2101
+FEATURES             Location/Qualifiers
+     source          1..3114
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="7"
+                     /map="7q36.1"
+     gene            1..3114
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="protein kinase AMP-activated non-catalytic subunit
+                     gamma 2"
+                     /db_xref="GeneID:51422"
+                     /db_xref="HGNC:HGNC:9386"
+                     /db_xref="MIM:602743"
+     exon            1..444
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    442..444
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="upstream in-frame stop codon"
+     exon            445..516
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             463..2040
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="isoform c is encoded by transcript variant c;
+                     5'-AMP-activated protein kinase subunit gamma-2; AMPK
+                     subunit gamma-2; protein kinase, AMP-activated, gamma 2
+                     non-catalytic subunit; epididymis secretory sperm binding
+                     protein"
+                     /codon_start=1
+                     /product="5'-AMP-activated protein kinase subunit gamma-2
+                     isoform c"
+                     /protein_id="NP_001035723.1"
+                     /db_xref="CCDS:CCDS43683.1"
+                     /db_xref="GeneID:51422"
+                     /db_xref="HGNC:HGNC:9386"
+                     /db_xref="MIM:602743"
+                     /translation="MPLLDGDLEGSGKHSSRKVDSPFGPGSPSKGFFSRGPQPRPSSP
+                     MSAPVRPKTSPGSPKTVFPFSYQESPPRSPRRMSFSGIFRSSSKESSPNSNPATSPGG
+                     IRFFSRSRKTSGLSSSPSTPTQVTKQHTFPLESYKHEPERLENRIYASSSPPDTGQRF
+                     CPSSFQSPTRPPLASPTHYAPSKAAALAAALGPAEAGMLEKLEFEDEAVEDSESGVYM
+                     RFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSFVGMLTI
+                     TDFINILHRYYKSPMVQIYELEEHKIETWRELYLQETFKPLVNISPDASLFDAVYSLI
+                     KNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGTYHNI
+                     AFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITV
+                     TQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQ
+                     ALILTPAGAKQKETETE"
+     exon            517..796
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            797..1014
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1015..1084
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1085..1194
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1195..1276
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1277..1335
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1336..1381
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1382..1436
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1437..1563
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1564..1729
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1730..1767
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1768..1914
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1915..2008
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2009..3114
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      2701..2706
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="hexamer: AATAAA"
+     polyA_site      2724
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+     regulatory      3092..3097
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="hexamer: ATTAAA"
+     polyA_site      3114
+                     /gene="PRKAG2"
+                     /gene_synonym="AAKG; AAKG2; CMH6; H91620p; WPWS"
+                     /note="major polyA site"
+ORIGIN      
+        1 agcagcgcct gacacaggtg ggaatgacag tttgctgcag tcccgtcaat gggggaatct
+       61 gcccgagctc tgcctgcatt ttgagcagca aagcagctcc agccaccaag accgttgcct
+      121 gcgctgtctt aggccagccc atgctgtctg ccagccgctt gttgcgctgc cttggggact
+      181 gggaacacac ccagccccgg tccccatctg ttgcagacat gcagtggcag cagctcggag
+      241 cacagccgaa ccctagaaat tgcctgtgct gaaggggctg ggaaacccct tctctgatgg
+      301 acctttcgag tgaggcagca ggatttgtca gagctgggag tgccgcccgt ccccgtcact
+      361 cgcatcctgc catccagcag cttacaagcc tgcactgctt attagcatct ggaagagaag
+      421 acctccagga ccccttgggg ctgagacctg agctccttcg ccatgccgct cctggacgga
+      481 gacctggagg gttccggaaa gcattcctct cgaaaggtgg acagcccctt cggcccgggc
+      541 agcccctcca aagggttctt ctccagaggc ccccagcccc ggccctccag ccccatgtct
+      601 gcacctgtga ggcccaagac cagccccggc tctcccaaaa ccgtgttccc gttctcctac
+      661 caggagtccc cgccacgctc ccctcgacgc atgagcttca gtgggatctt ccgctcctcc
+      721 tccaaagagt cttcccccaa ctccaaccct gctacctcgc ccgggggcat caggtttttc
+      781 tcccgctcca gaaaaacctc cggcctctcc tcctctccgt caacacccac ccaagtgacc
+      841 aagcagcaca cgtttcccct ggaatcctat aagcacgagc ctgaacggtt agagaatcgc
+      901 atctatgcct cgtcttcccc cccggacaca gggcagaggt tctgcccgtc ttccttccag
+      961 agcccgacca ggcctccact ggcatcaccg acacactatg ctccctccaa agccgcggcg
+     1021 ctggcggcgg ccctgggacc cgcggaagcc ggcatgctgg agaagctgga gttcgaggac
+     1081 gaagcagtag aagactcaga aagtggtgtt tacatgcgat tcatgaggtc acacaagtgt
+     1141 tatgacatcg ttccaaccag ttcaaagctt gttgtctttg atactacatt acaagttaaa
+     1201 aaggccttct ttgctttggt agccaacggt gtccgagcag cgccactgtg ggagagtaaa
+     1261 aaacaaagtt ttgtaggaat gctaacaatt acagatttca taaatatact acatagatac
+     1321 tataaatcac ctatggtaca gatttatgaa ttagaggaac ataaaattga aacatggagg
+     1381 gagctttatt tacaagaaac atttaagcct ttagtgaata tatctccaga tgcaagcctc
+     1441 ttcgatgctg tatactcctt gatcaaaaat aaaatccaca gattgcccgt tattgaccct
+     1501 atcagtggga atgcacttta tatacttacc cacaaaagaa tcctcaagtt cctccagctt
+     1561 tttatgtctg atatgccaaa gcctgccttc atgaagcaga acctggatga gcttggaata
+     1621 ggaacgtacc acaacattgc cttcatacat ccagacactc ccatcatcaa agccttgaac
+     1681 atatttgtgg aaagacgaat atcagctctg cctgttgtgg atgagtcagg aaaagttgta
+     1741 gatatttatt ccaaatttga tgtaattaat cttgctgctg agaaaacata caataaccta
+     1801 gatatcacgg tgacccaggc ccttcagcac cgttcacagt attttgaagg tgttgtgaag
+     1861 tgcaataagc tggaaatact ggagaccatc gtggacagaa tagtaagagc tgaggtccat
+     1921 cggctggtgg tggtaaatga agcagatagt attgtgggta ttatttccct gtcggacatt
+     1981 ctgcaagccc tgatcctcac accagcaggt gccaaacaaa aggagacaga aacggagtga
+     2041 ccgccgtgaa tgtagacgcc ctaggaggag aacttgaaca aagtctctgg gtcacgtttt
+     2101 gcctcatgaa cactggctgc aagtggttaa gaatgtatat cagggtttaa caataggtat
+     2161 ttcttccagt gatgttgaaa ttaagcttaa aaaagaaaga ttttatgtgc ttgaagattc
+     2221 aggcttgcat taaaagactg ttttcagacc tttgtctgaa ggattttaaa tgctgtatgt
+     2281 cattaaagtg cactgtgtcc tgaagttttc attatttttc atttcaaaga attcactggt
+     2341 atggaacagg tgatgtggca taaggtgagt gcacggtatg ttcagatcac agtgccttat
+     2401 gtccgaatac agcaatatgt caccgccgca gccggggcgc acgcgtgtga aacaacaccg
+     2461 agcttgaatg tggaagtctt tgaacctttt accaaatcag tttgttttct ttagatttgt
+     2521 caaaaagttg taatttgaat ataaataatt actttaaaat tgtaatgaca cttttacacg
+     2581 taagtgtttt gttctgggct accgtgtcaa cgaggctgct ttacaacagc tttatttatt
+     2641 tttactttca tgcaattttt ttacacatct tttggtggag taaacttcac cacatccatg
+     2701 aataaactct cagttatttt gaaatggcaa atttctcatt atttaagttt ggatctggaa
+     2761 aggacatgac ttctgaaata gccgctgctg ggttttaaaa gctgaggtct ctcaaagtgt
+     2821 ggaggagacg ttgccgtcag gcgggagcca agtgccggga agatgtctat tttttttctt
+     2881 gtgtattgaa atgtaaaatc atgatgtttg ttatgactgc tgatgcgatt gtttttgtaa
+     2941 attttattgt ggcatataca gtattgtcat acagttgaag agaaacaatg tttcctaatg
+     3001 taagtgctct gaaaatgttg acactgtata tatatatatg aggatagttt gttttttttt
+     3061 tgttttgggt tttttttttt cagattgaaa aattaaaata gatcctacta tcta
+//
+
