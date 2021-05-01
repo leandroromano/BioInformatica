@@ -1,3 +1,45 @@
 BLASTN 2.11.0+
 
 
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Nucleotide collection (nt)
+           69,775,018 sequences; 432,483,380,742 total letters
+
+
+
+Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
+subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
+
+Length=656
+
+RID: 8VG229H6013
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    2.28    0.818     2.08 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 267261111408260
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Apr 27, 2021 08:08 PM
+  Number of letters in database: 432,483,380,742
+  Number of sequences in database:  69,775,018
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
