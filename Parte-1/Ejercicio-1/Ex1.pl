@@ -1,7 +1,6 @@
 #!/usr/bin/perl
 
 use Bio::SeqIO;
-use Bio::Tools::CodonTable;
 
 my $usage = "Example: perl gbk2fasta.pl in.gb\n"; 
 my $infile = shift or die $usage;
