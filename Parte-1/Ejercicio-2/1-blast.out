@@ -1,0 +1,123 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: swissprot.fasta
+           564,638 sequences; 203,519,613 total letters
+
+
+
+Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
+subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
+
+Length=1037
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+Q8WZ42 Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4                 36.6       1.9  
+A2ASS6 Titin OS=Mus musculus OX=10090 GN=Ttn PE=1 SV=1                35.4       4.3  
+Q9UQ05 Potassium voltage-gated channel subfamily H member 4 OS=Ho...  33.9       9.5  
+
+
+>Q8WZ42 Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4
+Length=34350
+
+ Score = 36.6 bits (83),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 31/111 (28%), Positives = 45/111 (41%), Gaps = 29/111 (26%)
+
+Query  163  RVPESIPLERWTAPSARAAPPKGSSPEAPSP--GPPAPCLHL*GPRPAPALP-KPCSR--  217
+            R+P   P  R   P + AA  + +  ++PSP    P+P  H+  P P+P     P +R  
+Sbjct  256  RIPPK-PKSRSPTPPSIAAKAQLARQQSPSPIRHSPSPVRHVRAPTPSPVRSVSPAARIS  314
+
+Query  218  -SPTRSPRHAPLDA*ASVGSSAPPPKSLPPTPTLLPRPGASGFSPAPEKPP  267
+             SP RS R                      +P L+ +  AS  +  PE PP
+Sbjct  315  TSPIRSVR----------------------SPLLMRKTQASTVATGPEVPP  343
+
+
+>A2ASS6 Titin OS=Mus musculus OX=10090 GN=Ttn PE=1 SV=1
+Length=35213
+
+ Score = 35.4 bits (80),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 2/85 (2%)
+
+Query  183  PKGSSPEAPSPGPPAPCLHL*GPRPAPALPKPCSRSPTRSPRHAPLDA*ASVGSSAPPPK  242
+            PK  SP  PS    A       P P    P P      R+P  +P+ + +  G  +  P 
+Sbjct  260  PKSRSPTPPSIAAKAQLARQQSPSPIRHSPSPVRH--VRAPTPSPVRSVSPAGRISTSPI  317
+
+Query  243  SLPPTPTLLPRPGASGFSPAPEKPP  267
+                +P L+ +   +  +  PE PP
+Sbjct  318  RSVKSPLLIRKTQTTTMATGPEVPP  342
+
+
+ Score = 35.0 bits (79),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 46/181 (25%), Positives = 61/181 (34%), Gaps = 38/181 (21%)
+
+Query  141    PPGPLGAET*APSPCRSWTETWRVPESIPLE-RWTAPSARAAPPKGSSPEAPSPG-----  194
+              P  P       P   ++     ++PE+IP +           PPK  +PE   P      
+Sbjct  11833  PKKPEAPAAEVPEVPKTAVPQKKIPEAIPPKPESPPLEVPEVPPKEVTPEKKVPAAPPTK  11892
+
+Query  195    --------PPAPCLHL*GPRPAPALPKPCSRSPTRSPRHAPLDA*ASVGSSAP-------  239
+                      P AP   +   +   ALPK    +P   P+         V  + P       
+Sbjct  11893  PEIPPPKVPEAPQAAVVEEKTPEALPKKAEAAPVPVPQ---------VQETVPEKTRPVG  11943
+
+Query  240    PPKSLPPTPTLLPRPGASGFSPA---PEKPPASPPLRQHPPK*PSSTR---FPWNPISTS  293
+              PPK   P  T +P P      P    PE PP  P  R  P   P  TR    P  P +T+
+Sbjct  11944  PPKK--PEATTVPVPKVQKTIPEKTRPEAPPKRPEARTVPETVPEKTRPMAPPKKPEATT  12001
+
+Query  294    L  294
+              L
+Sbjct  12002  L  12002
+
+
+>Q9UQ05 Potassium voltage-gated channel subfamily H member 4 OS=Homo 
+sapiens OX=9606 GN=KCNH4 PE=2 SV=1
+Length=1017
+
+ Score = 33.9 bits (76),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 44/102 (43%), Gaps = 8/102 (8%)
+
+Query  178   ARAAPPKGSSPEAPSPGPPAPCLHL*GPRPAPALPKPCSRSPTRSPRHAPLDA*ASVGSS  237
+             AR  PP   +  A +P PP P L      P  + P P  +  T +  H P    ASVG+ 
+Sbjct  910   ARLGPPGHPAGSAWTPDPPCPQLRPPCLSPCASRPPPSLQDTTLAEVHCP----ASVGTM  965
+
+Query  238   APPPKSLPPTPTLLP----RPGASGFSPAPEKPPASPPLRQH  275
+                   L   P++LP     P   G SP PE  P +P L +H
+Sbjct  966   ETGTALLDLRPSILPPYPSEPDPLGPSPVPEASPPTPSLLRH  1007
+
+
+
+Lambda      K        H        a         alpha
+   0.346    0.151    0.562    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 119302567641
+
+
+  Database: swissprot.fasta
+    Posted date:  May 2, 2021  2:41 AM
+  Number of letters in database: 203,519,613
+  Number of sequences in database:  564,638
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
