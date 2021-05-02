@@ -7,8 +7,10 @@ realiza un Blast por cada secuencia input) y escriba el resultado (blast output)
 
 ## Instalación local de BLAST
 
+- Cumplir con la instalacion necesaria del Ejercicio-1
 - Bajar BLAST localmente del FTP del NCBI: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ o usando `sudo apt-get install ncbi-blast+`
 - Bajarse la base de datos
+- Instalar Blast remote con `sudo apt install libbio-tools-run-remoteblast-perl`
 
 ```
 wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz 

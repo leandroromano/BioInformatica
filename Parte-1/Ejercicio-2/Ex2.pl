@@ -2,6 +2,17 @@
 
 use Bio::SeqIO;
 use Bio::Tools::Run::StandAloneBlastPlus;
+use Bio::Tools::Run::RemoteBlast;
+my $prog = 'blastp';
+my $db   = 'swissprot';
+my $e_val= '1e-10';
+ 
+@remote_params = ( '-prog' => $prog,
+       '-data' => $db,
+       '-expect' => $e_val,
+       '-readmethod' => 'SearchIO' );
+ 
+$remote_factory = Bio::Tools::Run::RemoteBlast->new(@remote_params);
 
 # blast against local database
 $local_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
@@ -19,14 +30,43 @@ $local_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
 );
 
 foreach (@fasta_files) {
-    $file_name = substr($_, 0, index($_, '.'));
-    $local_factory->blastp( -query => "../Ejercicio-1/$_", -outfile => "$file_name-blast.out");
+    $fastaInputFileName = $_;
+    # Local DB
+    $file_name = substr($fastaInputFileName, 0, index($fastaInputFileName, '.'));
+    $local_factory->blastp( -query => "../Ejercicio-1/$fastaInputFileName", -outfile => "$file_name-blast.out");
+    # Remote DB
+    $v = 1; 
+    my $str = Bio::SeqIO->new(-file=>"../Ejercicio-1/$fastaInputFileName" , -format => 'fasta' );
+    while (my $input = $str->next_seq()){
+        #Blast a sequence against a database:
+        my $r = $remote_factory->submit_blast($input);
+        print STDERR "waiting..." if( $v > 0 );
+        while ( my @rids = $remote_factory->each_rid ) {
+            foreach my $rid ( @rids ) {
+                my $rc = $remote_factory->retrieve_blast($rid);
+                if( !ref($rc) ) {
+                    if( $rc < 0 ) {
+                        $remote_factory->remove_rid($rid);
+                    }
+                    print STDERR "." if ( $v > 0 );
+                    sleep 5;
+                } else {
+                    my $result = $rc->next_result();
+                    #save the output
+                    my $outputRemoteFilename = "$_-remote-blast.out";
+                    $remote_factory->save_output($outputRemoteFilename);
+                    $remote_factory->remove_rid($rid);
+                    print "\nQuery Name: ", $result->query_name(), "\n";
+                    while ( my $hit = $result->next_hit ) {
+                        next unless ( $v > 0);
+                        print "\thit name is ", $hit->name, "\n";
+                        while( my $hsp = $hit->next_hsp ) {
+                            print "\t\tscore is ", $hsp->score, "\n";
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
-
-# blast against the remote NCBI db
-#$remote_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
-#    -db_name => 'nr',
-#    -remote  => 1
-#);
-
-#$remote_factory->blastn( -query => './out-0.fasta', -outfile => "0-blast-remote.out");
