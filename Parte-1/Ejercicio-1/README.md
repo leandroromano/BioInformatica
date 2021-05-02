@@ -8,13 +8,13 @@
 
 ## Dependencias
 
-- Perl
-- BioPerl-1.7.8
+- Perl (`sudo apt-get install perl`)
+- BioPerl-1.7.8 (`sudo apt-get install bioperl`)
 
 ## Instrucciones de uso
 
 ```
-perl tp1.pl ./sequence.gb out
+perl Ex1.pl ./sequence.gb out
 ```
 
 Se generarán 6 archivos `FASTA`, nombrados `out-<frame>.fasta` y `out-<frame>-reverse.fasta`.
