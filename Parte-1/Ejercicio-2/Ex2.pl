@@ -32,8 +32,8 @@ $local_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
 foreach (@fasta_files) {
     $fastaInputFileName = $_;
     # Local DB
-    $file_name = substr($fastaInputFileName, 0, index($fastaInputFileName, '.'));
-    $local_factory->blastp( -query => "../Ejercicio-1/$fastaInputFileName", -outfile => "$file_name-blast.out");
+    $outputFileName = substr($fastaInputFileName, 0, index($fastaInputFileName, '.'));
+    $local_factory->blastp( -query => "../Ejercicio-1/$fastaInputFileName", -outfile => "$outputFileName-blast.out");
     # Remote DB
     $v = 1; 
     my $str = Bio::SeqIO->new(-file=>"../Ejercicio-1/$fastaInputFileName" , -format => 'fasta' );
@@ -49,11 +49,10 @@ foreach (@fasta_files) {
                         $remote_factory->remove_rid($rid);
                     }
                     print STDERR "." if ( $v > 0 );
-                    sleep 5;
                 } else {
                     my $result = $rc->next_result();
                     #save the output
-                    my $outputRemoteFilename = "$_-remote-blast.out";
+                    my $outputRemoteFilename = "$outputFileName-remote-blast.out";
                     $remote_factory->save_output($outputRemoteFilename);
                     $remote_factory->remove_rid($rid);
                     print "\nQuery Name: ", $result->query_name(), "\n";
