@@ -24,9 +24,9 @@ $local_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
     '2-rev.fasta'
 );
 
-foreach (@fasta_files) {
-    $fastaInputFileName = $_;
-    $outputFileName = substr($fastaInputFileName, 0, index($fastaInputFileName, '.'));
-    $local_factory->blastp( -query => "../Ejercicio-1/$fastaInputFileName", -outfile => "$outputFileName-blast.out");
-    $remote_factory->blastp( -query => "../Ejercicio-1/$fastaInputFileName", -outfile => "$outputFileName-remote-blast.out");
+foreach my $fasta_file (@fasta_files) {
+    $sequence = substr($fasta_file, 0, index($fasta_file, '.'));
+    $fasta_file_path = "../Ejercicio-1/$fasta_file";
+    $local_factory->blastp( -query => $fasta_file_path, -outfile => "$sequence-blast.out");
+    $remote_factory->blastp( -query => $fasta_file_path, -outfile => "$sequence-remote-blast.out");
 }
