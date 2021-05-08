@@ -1,4 +1,4 @@
-BLASTP 2.9.0+
+BLASTP 2.11.0+
 
 
 Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
@@ -16,8 +16,8 @@ Res. 29:2994-3005.
 
 
 
-Database: swissprot.fasta
-           564,638 sequences; 203,519,613 total letters
+Database: swissprot
+           476,364 sequences; 180,412,943 total letters
 
 
 
@@ -25,18 +25,19 @@ Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
 subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
 
 Length=1037
-                                                                      Score        E
-Sequences producing significant alignments:                          (Bits)     Value
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
 
-Q8WZ42 Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4                 36.6       1.9  
-A2ASS6 Titin OS=Mus musculus OX=10090 GN=Ttn PE=1 SV=1                35.4       4.3  
-Q9UQ05 Potassium voltage-gated channel subfamily H member 4 OS=Ho...  33.9       9.5  
+Q8WZ42.4 RecName: Full=Titin; AltName: Full=Connectin; AltName: F...  36.6    1.7  
+A2ASS6.1 RecName: Full=Titin; AltName: Full=Connectin [Mus musculus]  35.4    3.8  
+Q9UQ05.1 RecName: Full=Potassium voltage-gated channel subfamily ...  33.9    8.4  
 
 
->Q8WZ42 Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4
+>Q8WZ42.4 RecName: Full=Titin; AltName: Full=Connectin; AltName: 
+Full=Rhabdomyosarcoma antigen MU-RMS-40.14 [Homo sapiens]
 Length=34350
 
- Score = 36.6 bits (83),  Expect = 1.9, Method: Composition-based stats.
+ Score = 36.6 bits (83),  Expect = 1.7, Method: Composition-based stats.
  Identities = 31/111 (28%), Positives = 45/111 (41%), Gaps = 29/111 (26%)
 
 Query  163  RVPESIPLERWTAPSARAAPPKGSSPEAPSP--GPPAPCLHL*GPRPAPALP-KPCSR--  217
@@ -48,10 +49,10 @@ Query  218  -SPTRSPRHAPLDA*ASVGSSAPPPKSLPPTPTLLPRPGASGFSPAPEKPP  267
 Sbjct  315  TSPIRSVR----------------------SPLLMRKTQASTVATGPEVPP  343
 
 
->A2ASS6 Titin OS=Mus musculus OX=10090 GN=Ttn PE=1 SV=1
+>A2ASS6.1 RecName: Full=Titin; AltName: Full=Connectin [Mus musculus]
 Length=35213
 
- Score = 35.4 bits (80),  Expect = 4.3, Method: Composition-based stats.
+ Score = 35.4 bits (80),  Expect = 3.8, Method: Composition-based stats.
  Identities = 22/85 (26%), Positives = 33/85 (39%), Gaps = 2/85 (2%)
 
 Query  183  PKGSSPEAPSPGPPAPCLHL*GPRPAPALPKPCSRSPTRSPRHAPLDA*ASVGSSAPPPK  242
@@ -63,7 +64,7 @@ Query  243  SLPPTPTLLPRPGASGFSPAPEKPP  267
 Sbjct  318  RSVKSPLLIRKTQTTTMATGPEVPP  342
 
 
- Score = 35.0 bits (79),  Expect = 4.8, Method: Composition-based stats.
+ Score = 35.0 bits (79),  Expect = 4.2, Method: Composition-based stats.
  Identities = 46/181 (25%), Positives = 61/181 (34%), Gaps = 38/181 (21%)
 
 Query  141    PPGPLGAET*APSPCRSWTETWRVPESIPLE-RWTAPSARAAPPKGSSPEAPSPG-----  194
@@ -83,11 +84,14 @@ Query  294    L  294
 Sbjct  12002  L  12002
 
 
->Q9UQ05 Potassium voltage-gated channel subfamily H member 4 OS=Homo 
-sapiens OX=9606 GN=KCNH4 PE=2 SV=1
+>Q9UQ05.1 RecName: Full=Potassium voltage-gated channel subfamily 
+H member 4; AltName: Full=Brain-specific eag-like channel 
+2; Short=BEC2; AltName: Full=Ether-a-go-go-like potassium 
+channel 1; Short=ELK channel 1; Short=ELK1; AltName: Full=Voltage-gated 
+potassium channel subunit Kv12.3 [Homo sapiens]
 Length=1017
 
- Score = 33.9 bits (76),  Expect = 9.5, Method: Compositional matrix adjust.
+ Score = 33.9 bits (76),  Expect = 8.4, Method: Compositional matrix adjust.
  Identities = 34/102 (33%), Positives = 44/102 (43%), Gaps = 8/102 (8%)
 
 Query  178   ARAAPPKGSSPEAPSPGPPAPCLHL*GPRPAPALPKPCSRSPTRSPRHAPLDA*ASVGSS  237
@@ -107,13 +111,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 119302567641
+Effective search space used: 108569461059
 
 
-  Database: swissprot.fasta
-    Posted date:  May 2, 2021  2:41 AM
-  Number of letters in database: 203,519,613
-  Number of sequences in database:  564,638
+  Database: swissprot
+    Posted date:  May 2, 2021  6:20 PM
+  Number of letters in database: 180,412,943
+  Number of sequences in database:  476,364
 
 
 

@@ -1,4 +1,4 @@
-BLASTP 2.9.0+
+BLASTP 2.11.0+
 
 
 Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
@@ -16,8 +16,8 @@ Res. 29:2994-3005.
 
 
 
-Database: swissprot.fasta
-           564,638 sequences; 203,519,613 total letters
+Database: swissprot
+           476,364 sequences; 180,412,943 total letters
 
 
 
@@ -38,13 +38,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 119433813590
+Effective search space used: 108688899410
 
 
-  Database: swissprot.fasta
-    Posted date:  May 2, 2021  2:41 AM
-  Number of letters in database: 203,519,613
-  Number of sequences in database:  564,638
+  Database: swissprot
+    Posted date:  May 2, 2021  6:20 PM
+  Number of letters in database: 180,412,943
+  Number of sequences in database:  476,364
 
 
 

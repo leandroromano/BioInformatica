@@ -1,0 +1,90 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           391,068,434 sequences; 141,831,737,121 total letters
+
+
+
+Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
+subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
+
+Length=1038
+
+RID: 8YMA4UF7013
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+MXQ92120.1 hypothetical protein [Bos mutus]                           84.7    3e-15
+KNC24307.1 hypothetical protein FF38_04583 [Lucilia cuprina]          51.6    0.002
+
+
+>MXQ92120.1 hypothetical protein [Bos mutus]
+Length=124
+
+ Score = 84.7 bits (208),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 39/46 (85%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  773  VFLEREKNLMPPGEVAGLELGEDSLEEERKIPLKLMRRGERGGDSW  818
+            +FLEREK  MPPGEV GLE GE+SL+EERKIPLKLMRRGERGGDSW
+Sbjct  79   LFLEREKKRMPPGEVDGLEPGEESLDEERKIPLKLMRRGERGGDSW  124
+
+
+>KNC24307.1 hypothetical protein FF38_04583 [Lucilia cuprina]
+Length=150
+
+ Score = 51.6 bits (122),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 41/127 (32%), Positives = 52/127 (41%), Gaps = 47/127 (37%)
+
+Query  368  APAGVRIRACRMSDREIIPTILSASFTTTSRWTSALTILSTMVSSISSLLHFTTPSKYCE  427
+            +P G+  R  ++SD+EIIP  L  S TTT RWTSA TI S+M                  
+Sbjct  70   SPLGLSTRYSKISDKEIIPITLRFSSTTTRRWTSARTIRSSM------------------  111
+
+Query  428  RC*RAWVTVISRLLYVFSAARLITSNLE*ISTTFPDSSTTGRADIRLSTNMFKALMMGVS  487
+                                         IST  P  ST G+AD   STN FKA++M V 
+Sbjct  112  -----------------------------ISTKRPSESTNGKADTLRSTNFFKAVIMLVC  142
+
+Query  488  GCMKAML  494
+                ++L
+Sbjct  143  SSATSIL  149
+
+
+
+Lambda      K        H
+   0.340    0.146    0.486 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 64337653180460
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Apr 28, 2021 02:06 AM
+  Number of letters in database: 141,831,737,121
+  Number of sequences in database:  391,068,434
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,4 +1,4 @@
-BLASTP 2.9.0+
+BLASTP 2.11.0+
 
 
 Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
@@ -16,8 +16,8 @@ Res. 29:2994-3005.
 
 
 
-Database: swissprot.fasta
-           564,638 sequences; 203,519,613 total letters
+Database: swissprot
+           476,364 sequences; 180,412,943 total letters
 
 
 
@@ -25,20 +25,22 @@ Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
 subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
 
 Length=1038
-                                                                      Score        E
-Sequences producing significant alignments:                          (Bits)     Value
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
 
-A1TZR8 3-ketoacyl-CoA thiolase OS=Marinobacter hydrocarbonoclasti...  35.0       3.8  
-Q0A7K5 Cell division protein FtsB OS=Alkalilimnicola ehrlichii (s...  32.0       6.0  
-Q2SD23 3-ketoacyl-CoA thiolase OS=Hahella chejuensis (strain KCTC...  33.9       8.3  
+A1TZR8.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Ace...  35.0    3.3  
+Q0A7K5.1 RecName: Full=Cell division protein FtsB [Alkalilimnicol...  32.0    5.3  
+Q2SD23.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Ace...  33.9    7.4  
+A7ZU50.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Ace...  33.5    9.4  
 
 
->A1TZR8 3-ketoacyl-CoA thiolase OS=Marinobacter hydrocarbonoclasticus 
-(strain ATCC 700491 / DSM 11845 / VT8) OX=351348 GN=fadA PE=3 
-SV=1
+>A1TZR8.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Acetyl-CoA 
+acyltransferase; AltName: Full=Beta-ketothiolase; 
+AltName: Full=Fatty acid oxidation complex subunit beta [Marinobacter 
+hydrocarbonoclasticus VT8]
 Length=391
 
- Score = 35.0 bits (79),  Expect = 3.8, Method: Compositional matrix adjust.
+ Score = 35.0 bits (79),  Expect = 3.3, Method: Compositional matrix adjust.
  Identities = 17/53 (32%), Positives = 28/53 (53%), Gaps = 1/53 (2%)
 
 Query  469  RADIRLSTNMFKALMMGVSGCMKAMLWYVPIPSSSRFCFMKAGFGISDIKSWR  521
@@ -46,12 +48,11 @@ Query  469  RADIRLSTNMFKALMMGVSGCMKAMLWYVPIPSSSRFCFMKAGFGISDIKSWR  521
 Sbjct  259  RAEALGLTPIAKIRSMAVAGCDPAIMGYGPVPATKK-ALKRAGLKVEDIDFWE  310
 
 
->Q0A7K5 Cell division protein FtsB OS=Alkalilimnicola ehrlichii (strain 
-ATCC BAA-1101 / DSM 17681 / MLHE-1) OX=187272 GN=ftsB PE=3 
-SV=1
+>Q0A7K5.1 RecName: Full=Cell division protein FtsB [Alkalilimnicola 
+ehrlichii MLHE-1]
 Length=95
 
- Score = 32.0 bits (71),  Expect = 6.0, Method: Composition-based stats.
+ Score = 32.0 bits (71),  Expect = 5.3, Method: Composition-based stats.
  Identities = 17/46 (37%), Positives = 26/46 (57%), Gaps = 0/46 (0%)
 
 Query  767  EEERPEVFLEREKNLMPPGEVAGLELGEDSLEEERKIPLKLMRRGE  812
@@ -59,16 +60,32 @@ Query  767  EEERPEVFLEREKNLMPPGEVAGLELGEDSLEEERKIPLKLMRRGE  812
 Sbjct  37   EAQREEVDRLRQRNQALEAEVNDLKTGLEALEERARSELGMIREGE  82
 
 
->Q2SD23 3-ketoacyl-CoA thiolase OS=Hahella chejuensis (strain KCTC 2396) 
-OX=349521 GN=fadA PE=3 SV=1
+>Q2SD23.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Acetyl-CoA 
+acyltransferase; AltName: Full=Beta-ketothiolase; 
+AltName: Full=Fatty acid oxidation complex subunit beta [Hahella 
+chejuensis KCTC 2396]
 Length=391
 
- Score = 33.9 bits (76),  Expect = 8.3, Method: Compositional matrix adjust.
+ Score = 33.9 bits (76),  Expect = 7.4, Method: Compositional matrix adjust.
  Identities = 15/46 (33%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
 
 Query  476  TNMFKALMMGVSGCMKAMLWYVPIPSSSRFCFMKAGFGISDIKSWR  521
             T M K   M  +GC  A++ Y P+P++ +    +AG  + DI  W 
 Sbjct  266  TPMAKIRSMATAGCDPAIMGYGPVPATKK-ALKRAGLKVEDIDFWE  310
+
+
+>A7ZU50.1 RecName: Full=3-ketoacyl-CoA thiolase; AltName: Full=Acetyl-CoA 
+acyltransferase; AltName: Full=Beta-ketothiolase; 
+AltName: Full=Fatty acid oxidation complex subunit beta [Escherichia 
+coli O139:H28 str. E24377A]
+Length=387
+
+ Score = 33.5 bits (75),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 21/34 (62%), Gaps = 1/34 (3%)
+
+Query  484  MGVSGCMKAMLWYVPIPSSSRFCFMKAGFGISDI  517
+            M V GC  A++ Y P+P +S+    KAG  +SDI
+Sbjct  270  MAVVGCDPAIMGYGPVP-ASKLALKKAGLSVSDI  302
 
 
 
@@ -79,13 +96,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 119433813590
+Effective search space used: 108688899410
 
 
-  Database: swissprot.fasta
-    Posted date:  May 2, 2021  2:41 AM
-  Number of letters in database: 203,519,613
-  Number of sequences in database:  564,638
+  Database: swissprot
+    Posted date:  May 2, 2021  6:20 PM
+  Number of letters in database: 180,412,943
+  Number of sequences in database:  476,364
 
 
 

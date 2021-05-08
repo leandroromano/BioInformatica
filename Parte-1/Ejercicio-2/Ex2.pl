@@ -3,6 +3,8 @@
 use Bio::SeqIO;
 use Bio::Tools::Run::StandAloneBlastPlus;
 
+# $ENV{'BLASTPLUSDIR'} = '/home/german/Downloads/ncbi-blast-2.11.0+-src/c++/ReleaseMT/bin';
+
 # blast against remote database
 $remote_factory = Bio::Tools::Run::StandAloneBlastPlus->new(
     -db_name => 'nr',

@@ -1,0 +1,75 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           391,068,434 sequences; 141,831,737,121 total letters
+
+
+
+Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
+subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
+
+Length=1037
+
+RID: 8YRFSF3B016
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+MBP6748744.1 assimilatory sulfite reductase (NADPH) hemoprotein s...  43.5    7.8  
+
+
+>MBP6748744.1 assimilatory sulfite reductase (NADPH) hemoprotein subunit [Xanthomonadaceae 
+bacterium]
+Length=575
+
+ Score = 43.5 bits (101),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 36/65 (55%), Gaps = 5/65 (8%)
+
+Query  819  RRTGTRFWESRGWSWASQVQTWGWRAGAGGLWRRTLWRGCPGRRGCPPFERNAFRNPPGL  878
+            RR+G RF   RG+++AS    +GWR G  G W  TL R   GR     ++R+  R+  GL
+Sbjct  315  RRSGVRFGAPRGFAFASNGDRFGWREGHDGRWHLTL-RILAGR----IWDRDGLRHLSGL  369
+
+Query  879  RPGAA  883
+            R  AA
+Sbjct  370  RAIAA  374
+
+
+
+Lambda      K        H
+   0.347    0.151    0.551 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 64263274390656
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Apr 28, 2021 02:06 AM
+  Number of letters in database: 141,831,737,121
+  Number of sequences in database:  391,068,434
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

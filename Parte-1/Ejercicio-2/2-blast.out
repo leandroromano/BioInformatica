@@ -1,4 +1,4 @@
-BLASTP 2.9.0+
+BLASTP 2.11.0+
 
 
 Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
@@ -16,8 +16,8 @@ Res. 29:2994-3005.
 
 
 
-Database: swissprot.fasta
-           564,638 sequences; 203,519,613 total letters
+Database: swissprot
+           476,364 sequences; 180,412,943 total letters
 
 
 
@@ -25,20 +25,19 @@ Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
 subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
 
 Length=1037
-                                                                      Score        E
-Sequences producing significant alignments:                          (Bits)     Value
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
 
-Q4KGX6 Aliphatic sulfonates import ATP-binding protein SsuB 1 OS=...  36.6       0.85 
-Q2YSI6 Peptidase T OS=Staphylococcus aureus (strain bovine RF122 ...  35.8       2.2  
-Q9USS0 Nicotinamidase OS=Schizosaccharomyces pombe (strain 972 / ...  34.7       3.5  
+Q4KGX6.1 RecName: Full=Aliphatic sulfonates import ATP-binding pr...  36.6    0.76 
+Q2YSI6.1 RecName: Full=Peptidase T; AltName: Full=Aminotripeptida...  35.8    1.9  
+Q9USS0.2 RecName: Full=Nicotinamidase; AltName: Full=Nicotinamide...  34.7    3.1  
 
 
->Q4KGX6 Aliphatic sulfonates import ATP-binding protein SsuB 1 OS=Pseudomonas 
-fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5) 
-OX=220664 GN=ssuB1 PE=3 SV=1
+>Q4KGX6.1 RecName: Full=Aliphatic sulfonates import ATP-binding 
+protein SsuB 1 [Pseudomonas protegens Pf-5]
 Length=259
 
- Score = 36.6 bits (83),  Expect = 0.85, Method: Composition-based stats.
+ Score = 36.6 bits (83),  Expect = 0.76, Method: Composition-based stats.
  Identities = 30/89 (34%), Positives = 39/89 (44%), Gaps = 15/89 (17%)
 
 Query  238  LLLQRVFPQLQPCYLARGHQVFLPLQKNLRPLLLSVNTHPSDQAAHVSPGIL*ARA*TVR  297
@@ -50,11 +49,12 @@ Query  298  ESHLCLVFPPGHRAEVLPVFLPEPDQAST  326
 Sbjct  201  ------VLANGQIAEQLPIRLPRPRQAST  223
 
 
->Q2YSI6 Peptidase T OS=Staphylococcus aureus (strain bovine RF122 / ET3-1) 
-OX=273036 GN=pepT PE=3 SV=1
+>Q2YSI6.1 RecName: Full=Peptidase T; AltName: Full=Aminotripeptidase; 
+Short=Tripeptidase; AltName: Full=Tripeptide aminopeptidase 
+[Staphylococcus aureus RF122]
 Length=408
 
- Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
+ Score = 35.8 bits (81),  Expect = 1.9, Method: Compositional matrix adjust.
  Identities = 27/73 (37%), Positives = 35/73 (48%), Gaps = 8/73 (11%)
 
 Query  224  ATLPSTHELQWDLPLLLQRVFPQLQ-PCYLARGHQVFLPLQKNLRP------LLLSVNTH  276
@@ -66,11 +66,11 @@ Query  277  PSDQAAHVSPGIL  289
 Sbjct  83   PDFNASNVKPQII  95
 
 
->Q9USS0 Nicotinamidase OS=Schizosaccharomyces pombe (strain 972 / ATCC 
-24843) OX=284812 GN=pnc1 PE=3 SV=2
+>Q9USS0.2 RecName: Full=Nicotinamidase; AltName: Full=Nicotinamide 
+deamidase; Short=NAMase [Schizosaccharomyces pombe 972h-]
 Length=220
 
- Score = 34.7 bits (78),  Expect = 3.5, Method: Composition-based stats.
+ Score = 34.7 bits (78),  Expect = 3.1, Method: Composition-based stats.
  Identities = 18/55 (33%), Positives = 28/55 (51%), Gaps = 13/55 (24%)
 
 Query  655  FPVGHSASPDPHTSRCQTKGDRNGVTAVNVDALGGELEQSLWVTFCLMNT-GCKW  708
@@ -86,13 +86,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 119302567641
+Effective search space used: 108569461059
 
 
-  Database: swissprot.fasta
-    Posted date:  May 2, 2021  2:41 AM
-  Number of letters in database: 203,519,613
-  Number of sequences in database:  564,638
+  Database: swissprot
+    Posted date:  May 2, 2021  6:20 PM
+  Number of letters in database: 180,412,943
+  Number of sequences in database:  476,364
 
 
 

@@ -1,0 +1,292 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           391,068,434 sequences; 141,831,737,121 total letters
+
+
+
+Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
+subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
+
+Length=1037
+
+RID: 8YNWY0UN013
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CCQ43058.1 alternative protein PRKAG2 [Homo sapiens]                  171     4e-46
+XP_031311588.1 5'-AMP-activated protein kinase subunit gamma-2 is...  82.0    6e-12
+XP_032338967.1 5'-AMP-activated protein kinase subunit gamma-2 is...  80.9    8e-12
+XP_030190846.1 LOW QUALITY PROTEIN: uncharacterized protein LOC11...  53.5    0.005
+KAF3858230.1 hypothetical protein F7725_011431 [Dissostichus maws...  50.8    0.042
+XP_020728786.1 LOW QUALITY PROTEIN: 5'-AMP-activated protein kina...  49.7    0.087
+HAG59769.1 TPA: hypothetical protein [Arthrobacter sp.] >tpg|HAP8...  43.1    3.4  
+NWG11817.1 DNA-directed DNA polymerase II small subunit [Candidat...  44.3    4.0  
+XP_035110233.1 5'-AMP-activated protein kinase subunit gamma-2 is...  43.9    5.4  
+XP_008950633.1 uncharacterized protein C9orf47 homolog isoform X1...  42.4    5.6  
+XP_016816595.1 uncharacterized protein C9orf47 homolog [Pan trogl...  42.4    5.6  
+XP_032100861.1 5'-AMP-activated protein kinase subunit gamma-2 is...  43.1    7.6  
+WP_173163659.1 VOC family protein [Phytohabitans suffuscus] >dbj|...  42.7    8.3  
+WP_140756862.1 Flp pilus assembly protein CpaB [Mesorhizobium sp....  42.7    8.3  
+
+
+>CCQ43058.1 alternative protein PRKAG2 [Homo sapiens]
+Length=82
+
+ Score = 171 bits (433),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 82/82 (100%), Positives = 82/82 (100%), Gaps = 0/82 (0%)
+
+Query  8   MTVCCSPVNGGICPSSACILSSKAAPATKTVACAVLGQPMLSASRLLRCLGDWEHTQPRS  67
+           MTVCCSPVNGGICPSSACILSSKAAPATKTVACAVLGQPMLSASRLLRCLGDWEHTQPRS
+Sbjct  1   MTVCCSPVNGGICPSSACILSSKAAPATKTVACAVLGQPMLSASRLLRCLGDWEHTQPRS  60
+
+Query  68  PSVADMQWQQLGAQPNPRNCLC  89
+           PSVADMQWQQLGAQPNPRNCLC
+Sbjct  61  PSVADMQWQQLGAQPNPRNCLC  82
+
+
+>XP_031311588.1 5'-AMP-activated protein kinase subunit gamma-2 isoform X2 [Camelus 
+dromedarius]
+Length=515
+
+ Score = 82.0 bits (201),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 41/64 (64%), Positives = 47/64 (73%), Gaps = 0/64 (0%)
+
+Query  522  V*YAKACLHEAEPG*AWNRNVPQHCLHTSRHSHHQSLEHICGKTNISSACCG*VRKSCRY  581
+            V +AKACLHEAEPG   NR+VP+H LH   H+HHQS E + GKT +  A  G VRKSCRY
+Sbjct  452  VRHAKACLHEAEPGRPGNRDVPRHRLHPPGHAHHQSPECLRGKTRVRPARGGRVRKSCRY  511
+
+Query  582  LFQI  585
+            LFQI
+Sbjct  512  LFQI  515
+
+
+>XP_032338967.1 5'-AMP-activated protein kinase subunit gamma-2 isoform X2 [Camelus 
+ferus]
+Length=411
+
+ Score = 80.9 bits (198),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 40/62 (65%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  524  YAKACLHEAEPG*AWNRNVPQHCLHTSRHSHHQSLEHICGKTNISSACCG*VRKSCRYLF  583
+            +AKACLHEAEPG   NR+VP+H LH   H+HHQS E + GKT +  A  G VRKSCRYLF
+Sbjct  350  HAKACLHEAEPGRPGNRDVPRHRLHPPGHAHHQSPECLRGKTRVRPARGGRVRKSCRYLF  409
+
+Query  584  QI  585
+            QI
+Sbjct  410  QI  411
+
+
+>XP_030190846.1 LOW QUALITY PROTEIN: uncharacterized protein LOC115527388 [Lynx 
+canadensis]
+Length=412
+
+ Score = 53.5 bits (127),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 32/53 (60%), Positives = 35/53 (66%), Gaps = 4/53 (8%)
+
+Query  1   QRLTQVGMTVCCSPVNGGICPSSACILSSKAAPATKTVACAVLGQPMLSASRL  53
+           Q L QV MT  C PV GGICP SAC+LSS  AP    +A AV G+ MLSA RL
+Sbjct  48  QPLAQVVMTAGCGPVAGGICPRSACVLSSTPAP----LARAVPGRLMLSAVRL  96
+
+
+>KAF3858230.1 hypothetical protein F7725_011431, partial [Dissostichus mawsoni]
+Length=529
+
+ Score = 50.8 bits (120),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 39/64 (61%), Gaps = 1/64 (2%)
+
+Query  179  GQPLQRVLLQRPPAPALQPHVCTCEAQDQPRLSQNRVPV-LLPGVPATLPSTHELQWDLP  237
+             QP QR + + P   A     C+  ++DQ R+S+N +P+ LLPG+   +P   ELQW LP
+Sbjct  7    SQPHQRRVSEEPSHAAPAFSFCSSASEDQFRVSKNYLPLSLLPGLATQIPPALELQWYLP  66
+
+Query  238  LLLQ  241
+            LL+Q
+Sbjct  67   LLIQ  70
+
+
+>XP_020728786.1 LOW QUALITY PROTEIN: 5'-AMP-activated protein kinase subunit 
+gamma-2 [Odocoileus virginianus texanus]
+Length=451
+
+ Score = 49.7 bits (117),  Expect = 0.087, Method: Compositional matrix adjust.
+ Identities = 25/39 (64%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  298  ESHLCLVFPPGHRAEVLPVFLPEPDQASTGITDTLCSLQ  336
+            +SHLCL+F  GHR EV PV LPE  QAS  I DT  SLQ
+Sbjct  95   KSHLCLLFASGHRPEVQPVLLPECSQASVSIADTSFSLQ  133
+
+
+>HAG59769.1 hypothetical protein [Arthrobacter sp.]
+ HAP88971.1 hypothetical protein [Arthrobacter sp.]
+ HBH58209.1 hypothetical protein [Arthrobacter sp.]
+ HCB59219.1 hypothetical protein [Arthrobacter sp.]
+ HCC39889.1 hypothetical protein [Arthrobacter sp.]
+Length=213
+
+ Score = 43.1 bits (100),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 24/78 (31%), Positives = 40/78 (51%), Gaps = 6/78 (8%)
+
+Query  125  QQLTSLHCLLASGREDLQDPLGLRPE------LLRHAAPGRRPGGFRKAFLSKGGQPLRP  178
+            Q L +  CL+A+     QDPL L+ +      L  +  P   PG  + A L  GG+P +P
+Sbjct  90   QYLKADGCLVAAKVRTNQDPLALKDDKESTVGLFTYLDPSILPGYLKTATLRWGGEPGKP  149
+
+Query  179  GQPLQRVLLQRPPAPALQ  196
+            G   + ++L++P  P ++
+Sbjct  150  GPAAEVLVLEKPGQPGIR  167
+
+
+>NWG11817.1 DNA-directed DNA polymerase II small subunit [Candidatus Bathyarchaeota 
+archaeon]
+Length=518
+
+ Score = 44.3 bits (103),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 26/85 (31%), Positives = 40/85 (47%), Gaps = 1/85 (1%)
+
+Query  142  QDPLGLRPELLRHA-APGRRPGGFRKAFLSKGGQPLRPGQPLQRVLLQRPPAPALQPHVC  200
+            QDP  +  + +    A   +P    ++FL K  QPL+P       L + PPAP L+PHV 
+Sbjct  36   QDPTEVMSKAIYEINALKEKPLFIDRSFLEKMVQPLKPKMDDSTKLFEEPPAPLLEPHVT  95
+
+Query  201  TCEAQDQPRLSQNRVPVLLPGVPAT  225
+              + Q  P   +    + + G PA+
+Sbjct  96   EGKKQFHPYAKEIESNIKILGDPAS  120
+
+
+>XP_035110233.1 5'-AMP-activated protein kinase subunit gamma-2 isoform X7 [Callithrix 
+jacchus]
+Length=440
+
+ Score = 43.9 bits (102),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 23/35 (66%), Gaps = 1/35 (3%)
+
+Query  150  ELLRHAAPGRRPGGFRKAFLSKG-GQPLRPGQPLQ  183
+            ELLRHAAPG  PG FRKAFLSK  G    P  P Q
+Sbjct  5    ELLRHAAPGWGPGDFRKAFLSKASGLSSSPSTPTQ  39
+
+
+>XP_008950633.1 uncharacterized protein C9orf47 homolog isoform X1 [Pan paniscus]
+Length=201
+
+ Score = 42.4 bits (98),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 42/140 (30%), Positives = 50/140 (36%), Gaps = 21/140 (15%)
+
+Query  96   PSLMDLSSEAAGFVRAGSAARPRHSHPAIQQLTSLHCLLASGREDLQDPLGLRPELLRHA  155
+            PSL  L   A GF    S    R   PA +Q          G +   DP GLRP   R  
+Sbjct  40   PSLFPLGLWAPGFCTWSSPDEDRVWRPAWEQ----------GPKGEPDPRGLRP---RKP  86
+
+Query  156  APG--RRPGGFRKAFLSKGGQPLRPGQPLQRVLLQRPPAPALQPHVCTCEAQDQPRLSQN  213
+             PG   R  G R+       Q  RPG  +       PP+PA         AQD+    + 
+Sbjct  87   VPGTGNRDSGTRRRLQDATEQDPRPGNDVASAETAGPPSPA------GIRAQDRAPRHRR  140
+
+Query  214  RVPVLLPGVPATLPSTHELQ  233
+              P  +P  PA       LQ
+Sbjct  141  APPARMPVAPAPSADGEPLQ  160
+
+
+>XP_016816595.1 uncharacterized protein C9orf47 homolog [Pan troglodytes]
+ PNI38333.1 C9orf47 isoform 1 [Pan troglodytes]
+Length=201
+
+ Score = 42.4 bits (98),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 42/140 (30%), Positives = 50/140 (36%), Gaps = 21/140 (15%)
+
+Query  96   PSLMDLSSEAAGFVRAGSAARPRHSHPAIQQLTSLHCLLASGREDLQDPLGLRPELLRHA  155
+            PSL  L   A GF    S    R   PA +Q          G +   DP GLRP   R  
+Sbjct  40   PSLFPLGLWAPGFCTWSSPDEDRVWRPAWEQ----------GPKGEPDPRGLRP---RKP  86
+
+Query  156  APG--RRPGGFRKAFLSKGGQPLRPGQPLQRVLLQRPPAPALQPHVCTCEAQDQPRLSQN  213
+             PG   R  G R+       Q  RPG  +       PP+PA         AQD+    + 
+Sbjct  87   VPGTGNRDSGTRRRLQDATEQDPRPGNDVASAETAGPPSPA------GIRAQDRAPRHRR  140
+
+Query  214  RVPVLLPGVPATLPSTHELQ  233
+              P  +P  PA       LQ
+Sbjct  141  APPARMPVAPAPSADGEPLQ  160
+
+
+>XP_032100861.1 5'-AMP-activated protein kinase subunit gamma-2 isoform X7 [Sapajus 
+apella]
+Length=440
+
+ Score = 43.1 bits (100),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 23/36 (64%), Gaps = 1/36 (3%)
+
+Query  149  PELLRHAAPGRRPGGFRKAFLSKG-GQPLRPGQPLQ  183
+            PELLRHAAPG  P  FRKAFLSK  G    P  P Q
+Sbjct  4    PELLRHAAPGWGPRDFRKAFLSKASGLSSSPSTPTQ  39
+
+
+>WP_173163659.1 VOC family protein [Phytohabitans suffuscus]
+ BCB91017.1 hypothetical protein Psuf_083300 [Phytohabitans suffuscus]
+Length=274
+
+ Score = 42.7 bits (99),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 35/107 (33%), Positives = 46/107 (43%), Gaps = 15/107 (14%)
+
+Query  64   QPRSPSVADMQWQ----QLGAQPNPRNCLC*RGWETPSLMDLSSEAAGFVRAGSAARPRH  119
+            +PR      ++W     +L   P   + LC  GWE       + E+   V AG AAR   
+Sbjct  30   EPRGDGTVRVRWDDRAYRLAVHPGQNDRLCYLGWEVD-----ADESLDEVAAGLAAR---  81
+
+Query  120  SHPAIQQLTSLHCLLASGRED-LQDPLGLRPELLRHAAPGRRPGGFR  165
+             HP  +    L    A+GR     DP GLR EL+   A  R PG +R
+Sbjct  82   GHPPREGSARLAAERAAGRVVWFDDPFGLRHELVEGQA--RWPGAYR  126
+
+
+>WP_140756862.1 Flp pilus assembly protein CpaB [Mesorhizobium sp. B4-1-3]
+ TPI08460.1 Flp pilus assembly protein CpaB [Mesorhizobium sp. B4-1-3]
+Length=303
+
+ Score = 42.7 bits (99),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 41/130 (32%), Positives = 62/130 (48%), Gaps = 16/130 (12%)
+
+Query  196  QPHVCTCEAQDQPRLSQNRVPV----LLPGVPATLPSTHELQWDLPLLLQRVFPQLQPCY  251
+            Q  V T EA  QP++    + V    L  G+    P   E+ W    L Q  FP ++   
+Sbjct  27   QAEVVTVEAPQQPKVEFKTIVVAQAPLRYGMELARPQLAEIPWPQDSLPQGAFPTIEK-L  85
+
+Query  252  LARGHQVFL-PLQKNLRPLLLSVNTHPSDQAA---HVSPGIL*ARA*TVRESHLCLV---  304
+            LA G +V L P++ N  P+LL+  + P+ +A     +SPG+   RA T+R   +  V   
+Sbjct  86   LADGSRVVLSPIEVN-EPVLLTKLSGPNGRATLSNMLSPGM---RAVTIRTDEIAGVGGF  141
+
+Query  305  FPPGHRAEVL  314
+              PG R +V+
+Sbjct  142  ITPGDRVDVV  151
+
+
+
+Lambda      K        H
+   0.345    0.150    0.536 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 64263274390656
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Apr 28, 2021 02:06 AM
+  Number of letters in database: 141,831,737,121
+  Number of sequences in database:  391,068,434
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

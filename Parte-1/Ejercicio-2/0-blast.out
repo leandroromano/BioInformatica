@@ -1,4 +1,4 @@
-BLASTP 2.9.0+
+BLASTP 2.11.0+
 
 
 Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
@@ -16,8 +16,8 @@ Res. 29:2994-3005.
 
 
 
-Database: swissprot.fasta
-           564,638 sequences; 203,519,613 total letters
+Database: swissprot
+           476,364 sequences; 180,412,943 total letters
 
 
 
@@ -25,86 +25,87 @@ Query= NM_001040633 Homo sapiens protein kinase AMP-activated non-catalytic
 subunit gamma 2 (PRKAG2), transcript variant c, mRNA.
 
 Length=1038
-                                                                      Score        E
-Sequences producing significant alignments:                          (Bits)     Value
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
 
-Q9UGJ0 5'-AMP-activated protein kinase subunit gamma-2 OS=Homo sa...  1090       0.0   
-Q5R4S0 5'-AMP-activated protein kinase subunit gamma-2 OS=Pongo a...  1065       0.0   
-Q91WG5 5'-AMP-activated protein kinase subunit gamma-2 OS=Mus mus...  924        0.0   
-Q09138 5'-AMP-activated protein kinase subunit gamma-1 OS=Sus scr...  493        1e-165
-O54950 5'-AMP-activated protein kinase subunit gamma-1 OS=Mus mus...  493        1e-165
-P54619 5'-AMP-activated protein kinase subunit gamma-1 OS=Homo sa...  492        1e-165
-P80385 5'-AMP-activated protein kinase subunit gamma-1 OS=Rattus ...  492        2e-165
-P58108 5'-AMP-activated protein kinase subunit gamma-1 OS=Bos tau...  491        3e-165
-Q8BGM7 5'-AMP-activated protein kinase subunit gamma-3 OS=Mus mus...  440        5e-143
-Q9UGI9 5'-AMP-activated protein kinase subunit gamma-3 OS=Homo sa...  437        6e-142
-Q9MYP4 5'-AMP-activated protein kinase subunit gamma-3 OS=Sus scr...  437        1e-141
-Q2LL38 5'-AMP-activated protein kinase subunit gamma-3 OS=Bos tau...  431        2e-139
-Q8T277 5'-AMP-activated protein kinase subunit gamma OS=Dictyoste...  225        5e-62 
-P12904 5'-AMP-activated protein kinase subunit gamma OS=Saccharom...  200        5e-56 
-Q10343 5'-AMP-activated protein kinase subunit gamma OS=Schizosac...  189        8e-52 
-Q9P869 5'-AMP-activated protein kinase subunit gamma OS=Kluyverom...  172        4e-46 
-Q944A6 Sucrose nonfermenting 4-like protein OS=Arabidopsis thalia...  133        1e-31 
-Q8LBB2 SNF1-related protein kinase regulatory subunit gamma-1 OS=...  59.7       8e-08 
-A3LQC5 Protein SDS23 OS=Scheffersomyces stipitis (strain ATCC 587...  59.7       9e-08 
-Q58622 Uncharacterized protein MJ1225 OS=Methanocaldococcus janna...  53.5       4e-06 
-Q5A744 Protein SDS23 OS=Candida albicans (strain SC5314 / ATCC MY...  54.7       4e-06 
-Q54H97 CBS domain-containing protein DDB_G0289609 OS=Dictyosteliu...  50.1       8e-06 
-Q58799 Uncharacterized protein MJ1404 OS=Methanocaldococcus janna...  50.8       5e-05 
-A5DNL9 Protein SDS23 OS=Meyerozyma guilliermondii (strain ATCC 62...  49.7       1e-04 
-Q58629 Uncharacterized protein MJ1232 OS=Methanocaldococcus janna...  48.9       1e-04 
-Q58821 Uncharacterized protein MJ1426 OS=Methanocaldococcus janna...  45.8       4e-04 
-Q6C5K4 Protein SDS23 OS=Yarrowia lipolytica (strain CLIB 122 / E ...  47.0       7e-04 
-Q9XI37 SNF1-related protein kinase regulatory subunit gamma-like ...  46.2       0.001 
-P15889 Uncharacterized 33.4 kDa protein in ribosomal RNA operon O...  45.8       0.001 
-A7FA72 Protein sds23 OS=Botryotinia fuckeliana (strain B05.10) OX...  46.2       0.001 
-O23193 CBS domain-containing protein CBSX1, chloroplastic OS=Arab...  44.7       0.002 
-P42851 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus furio...  45.4       0.002 
-Q75EC0 Protein SDS23 OS=Ashbya gossypii (strain ATCC 10895 / CBS ...  44.7       0.005 
-Q59011 Inosine-5'-monophosphate dehydrogenase OS=Methanocaldococc...  43.9       0.007 
-O58045 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus horik...  43.9       0.007 
-A7F3V4 Protein sds23 OS=Sclerotinia sclerotiorum (strain ATCC 186...  43.9       0.008 
-Q9UY49 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus abyss...  42.7       0.019 
-Q9C5D0 CBS domain-containing protein CBSX2, chloroplastic OS=Arab...  41.2       0.027 
-Q57564 L-aspartate semialdehyde sulfurtransferase OS=Methanocaldo...  41.6       0.038 
-Q58332 Uncharacterized protein MJ0922 OS=Methanocaldococcus janna...  39.3       0.040 
-Q0U194 Protein SDS23 OS=Phaeosphaeria nodorum (strain SN15 / ATCC...  41.2       0.053 
-A7TL18 Protein SDS23 OS=Vanderwaltozyma polyspora (strain ATCC 22...  40.8       0.061 
-Q6FMN0 Protein SDS23 OS=Candida glabrata (strain ATCC 2001 / CBS ...  40.8       0.065 
-P53172 Protein SDS23 OS=Saccharomyces cerevisiae (strain ATCC 204...  40.4       0.092 
-A6ZUC0 Protein SDS23 OS=Saccharomyces cerevisiae (strain YJM789) ...  40.4       0.092 
-Q9KGN8 Inosine-5'-monophosphate dehydrogenase OS=Bacillus halodur...  40.0       0.098 
-Q8GXI9 SNF1-related protein kinase regulatory subunit gamma-like ...  40.0       0.099 
-A2RB71 Protein sds23 OS=Aspergillus niger (strain CBS 513.88 / FG...  40.0       0.10  
-Q2HHB4 Protein SDS23 OS=Chaetomium globosum (strain ATCC 6205 / C...  39.3       0.18  
-O67820 Inosine-5'-monophosphate dehydrogenase OS=Aquifex aeolicus...  38.9       0.26  
-Q6CUE1 Protein SDS23 OS=Kluyveromyces lactis (strain ATCC 8585 / ...  38.9       0.26  
-Q874W3 Protein SDS23 OS=Podospora anserina OX=2587412 GN=SDS23 PE...  38.5       0.31  
-D7E9E0 Homoserine O-acetyltransferase OS=Methanohalobium evestiga...  38.1       0.40  
-Q57892 Uncharacterized protein MJ0450 OS=Methanocaldococcus janna...  37.0       0.47  
-K2QXP6 Homoserine O-acetyltransferase OS=Methanobacterium formici...  37.4       0.75  
-A4QRM8 Protein SDS23 OS=Magnaporthe oryzae (strain 70-15 / ATCC M...  37.4       0.79  
-Q8TME4 Homoserine O-acetyltransferase OS=Methanosarcina acetivora...  37.0       0.99  
-P38314 Protein SDS24 OS=Saccharomyces cerevisiae (strain ATCC 204...  37.0       1.0   
-A6ZLF4 Protein SDS24 OS=Saccharomyces cerevisiae (strain YJM789) ...  37.0       1.0   
-A6UNL1 Homoserine O-acetyltransferase OS=Methanococcus vannielii ...  37.0       1.0   
-D3E3E4 Homoserine O-acetyltransferase OS=Methanobrevibacter rumin...  36.6       1.2   
-Q57647 Uncharacterized protein MJ0188 OS=Methanocaldococcus janna...  36.2       1.4   
-Q09826 Protein sds23/moc1 OS=Schizosaccharomyces pombe (strain 97...  35.8       2.4   
-Q03297 Period circadian protein (Fragment) OS=Drosophila willisto...  35.8       2.6   
-Q12XS2 Homoserine O-acetyltransferase OS=Methanococcoides burtoni...  35.8       2.6   
-Q9LEV3 CBS domain-containing protein CBSX3, mitochondrial OS=Arab...  34.3       3.6   
-P32987 Uncharacterized 17.7 kDa protein in bps2 3'region OS=Acidi...  33.9       4.4   
-Q9CAR3 SNF1-related protein kinase regulatory subunit gamma-1-lik...  34.7       4.5   
-F7XKY8 Homoserine O-acetyltransferase OS=Methanosalsum zhilinae (...  34.7       4.7   
-P9WLQ6 Uncharacterized protein MT1889 OS=Mycobacterium tuberculos...  34.3       6.1   
-P9WLQ7 Uncharacterized protein Rv1841c OS=Mycobacterium tuberculo...  34.3       6.4   
-C6H203 MICOS complex subunit MIC60 OS=Ajellomyces capsulatus (str...  34.3       8.5   
-P21879 Inosine-5'-monophosphate dehydrogenase OS=Bacillus subtili...  33.9       9.0   
+Q9UGJ0.1 RecName: Full=5'-AMP-activated protein kinase subunit ga...  1090    0.0   
+Q5R4S0.1 RecName: Full=5'-AMP-activated protein kinase subunit ga...  1065    0.0   
+Q91WG5.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  924     0.0   
+Q09138.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  493     9e-166
+O54950.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  493     9e-166
+P54619.1 RecName: Full=5'-AMP-activated protein kinase subunit ga...  492     1e-165
+P80385.3 RecName: Full=5'-AMP-activated protein kinase subunit ga...  492     1e-165
+P58108.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  491     3e-165
+Q8BGM7.1 RecName: Full=5'-AMP-activated protein kinase subunit ga...  440     5e-143
+Q9UGI9.3 RecName: Full=5'-AMP-activated protein kinase subunit ga...  437     5e-142
+Q9MYP4.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  437     9e-142
+Q2LL38.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  431     2e-139
+Q8T277.3 RecName: Full=5'-AMP-activated protein kinase subunit ga...  225     4e-62 
+P12904.1 RecName: Full=5'-AMP-activated protein kinase subunit ga...  200     4e-56 
+Q10343.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  189     7e-52 
+Q9P869.2 RecName: Full=5'-AMP-activated protein kinase subunit ga...  172     4e-46 
+Q944A6.1 RecName: Full=Sucrose nonfermenting 4-like protein; Shor...  133     1e-31 
+Q8LBB2.2 RecName: Full=SNF1-related protein kinase regulatory sub...  59.7    7e-08 
+A3LQC5.2 RecName: Full=Protein SDS23 [Scheffersomyces stipitis CB...  59.7    8e-08 
+Q58622.1 RecName: Full=Uncharacterized protein MJ1225 [Methanocal...  53.5    3e-06 
+Q5A744.2 RecName: Full=Protein SDS23 [Candida albicans SC5314]        54.7    4e-06 
+Q54H97.1 RecName: Full=CBS domain-containing protein DDB_G0289609...  50.1    7e-06 
+Q58799.1 RecName: Full=Uncharacterized protein MJ1404 [Methanocal...  50.8    4e-05 
+A5DNL9.2 RecName: Full=Protein SDS23 [Meyerozyma guilliermondii A...  49.7    1e-04 
+Q58629.1 RecName: Full=Uncharacterized protein MJ1232 [Methanocal...  48.9    1e-04 
+Q58821.1 RecName: Full=Uncharacterized protein MJ1426 [Methanocal...  45.8    3e-04 
+Q6C5K4.1 RecName: Full=Protein SDS23 [Yarrowia lipolytica CLIB122]    47.0    7e-04 
+Q9XI37.1 RecName: Full=SNF1-related protein kinase regulatory sub...  46.2    9e-04 
+P15889.1 RecName: Full=Uncharacterized 33.4 kDa protein in riboso...  45.8    0.001 
+A7FA72.1 RecName: Full=Protein sds23 [Botrytis cinerea B05.10]        46.2    0.001 
+O23193.2 RecName: Full=CBS domain-containing protein CBSX1, chlor...  44.7    0.002 
+P42851.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  45.4    0.002 
+Q75EC0.1 RecName: Full=Protein SDS23 [Eremothecium gossypii ATCC ...  44.7    0.004 
+Q59011.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  43.9    0.006 
+O58045.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  43.9    0.006 
+A7F3V4.1 RecName: Full=Protein sds23 [Sclerotinia sclerotiorum 19...  43.9    0.007 
+Q9UY49.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  42.7    0.016 
+Q9C5D0.1 RecName: Full=CBS domain-containing protein CBSX2, chlor...  41.2    0.024 
+Q57564.1 RecName: Full=L-aspartate semialdehyde sulfurtransferase...  41.6    0.033 
+Q58332.1 RecName: Full=Uncharacterized protein MJ0922 [Methanocal...  39.3    0.036 
+Q0U194.1 RecName: Full=Protein SDS23 [Parastagonospora nodorum SN15]  41.2    0.047 
+A7TL18.1 RecName: Full=Protein SDS23 [Vanderwaltozyma polyspora D...  40.8    0.054 
+Q6FMN0.1 RecName: Full=Protein SDS23 [[Candida] glabrata CBS 138]     40.8    0.058 
+A6ZUC0.1 RecName: Full=Protein SDS23 [Saccharomyces cerevisiae YJ...  40.4    0.081 
+P53172.2 RecName: Full=Protein SDS23 [Saccharomyces cerevisiae S2...  40.4    0.081 
+Q9KGN8.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  40.0    0.087 
+Q8GXI9.1 RecName: Full=SNF1-related protein kinase regulatory sub...  40.0    0.088 
+A2RB71.1 RecName: Full=Protein sds23 [Aspergillus niger CBS 513.88]   40.0    0.093 
+Q2HHB4.1 RecName: Full=Protein SDS23 [Chaetomium globosum CBS 148...  39.3    0.16  
+O67820.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  38.9    0.23  
+Q6CUE1.1 RecName: Full=Protein SDS23 [Kluyveromyces lactis NRRL Y...  38.9    0.23  
+Q874W3.1 RecName: Full=Protein SDS23 [Podospora anserina]             38.5    0.27  
+D7E9E0.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  38.1    0.36  
+Q57892.1 RecName: Full=Uncharacterized protein MJ0450 [Methanocal...  37.0    0.42  
+K2QXP6.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  37.4    0.66  
+A4QRM8.1 RecName: Full=Protein SDS23 [Pyricularia oryzae 70-15]       37.4    0.70  
+Q8TME4.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  37.0    0.88  
+A6ZLF4.1 RecName: Full=Protein SDS24 [Saccharomyces cerevisiae YJ...  37.0    0.90  
+A6UNL1.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  37.0    0.92  
+D3E3E4.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  36.6    1.1   
+Q57647.1 RecName: Full=Uncharacterized protein MJ0188 [Methanocal...  36.2    1.2   
+Q09826.1 RecName: Full=Protein sds23/moc1; AltName: Full=Multicop...  35.8    2.2   
+Q03297.2 RecName: Full=Period circadian protein [Drosophila willi...  35.8    2.3   
+Q12XS2.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  35.8    2.3   
+Q9LEV3.1 RecName: Full=CBS domain-containing protein CBSX3, mitoc...  34.3    3.2   
+P32987.1 RecName: Full=Uncharacterized 17.7 kDa protein in bps2 3...  33.9    3.9   
+Q9CAR3.1 RecName: Full=SNF1-related protein kinase regulatory sub...  34.7    4.0   
+F7XKY8.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT;...  34.7    4.2   
+P9WLQ6.1 RecName: Full=Uncharacterized protein MT1889 [Mycobacter...  34.3    5.4   
+P9WLQ7.1 RecName: Full=Uncharacterized protein Rv1841c [Mycobacte...  34.3    5.7   
+C6H203.1 RecName: Full=MICOS complex subunit MIC60; AltName: Full...  34.3    7.5   
+P21879.2 RecName: Full=Inosine-5'-monophosphate dehydrogenase; Sh...  33.9    7.9   
+Q04723.2 RecName: Full=Aminopeptidase C; AltName: Full=Bleomycin ...  33.5    9.8   
 
 
->Q9UGJ0 5'-AMP-activated protein kinase subunit gamma-2 OS=Homo sapiens 
-OX=9606 GN=PRKAG2 PE=1 SV=1
+>Q9UGJ0.1 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-2; Short=AMPK gamma2; Short=AMPK subunit gamma-2; AltName: 
+Full=H91620p [Homo sapiens]
 Length=569
 
  Score = 1090 bits (2820),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -147,8 +148,9 @@ Query  629  TIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  679
 Sbjct  519  TIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  569
 
 
->Q5R4S0 5'-AMP-activated protein kinase subunit gamma-2 OS=Pongo abelii 
-OX=9601 GN=PRKAG2 PE=2 SV=1
+>Q5R4S0.1 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-2; Short=AMPK gamma2; Short=AMPK subunit gamma-2 [Pongo 
+abelii]
 Length=524
 
  Score = 1065 bits (2753),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -191,8 +193,9 @@ Query  635  VRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  679
 Sbjct  480  VRAEVHRLVVANEADSIVGIISLSDILQALILTPAGAKQKETETE  524
 
 
->Q91WG5 5'-AMP-activated protein kinase subunit gamma-2 OS=Mus musculus 
-OX=10090 GN=Prkag2 PE=1 SV=2
+>Q91WG5.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-2; Short=AMPK gamma2; Short=AMPK subunit gamma-2 [Mus 
+musculus]
 Length=566
 
  Score = 924 bits (2387),  Expect = 0.0, Method: Compositional matrix adjust.
@@ -235,11 +238,12 @@ Query  629  TIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  679
 Sbjct  516  TIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  566
 
 
->Q09138 5'-AMP-activated protein kinase subunit gamma-1 OS=Sus scrofa 
-OX=9823 GN=PRKAG1 PE=1 SV=2
+>Q09138.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-1; Short=AMPK gamma1; Short=AMPK subunit gamma-1; Short=AMPKg; 
+AltName: Full=38 kDa subunit [Sus scrofa]
 Length=330
 
- Score = 493 bits (1268),  Expect = 1e-165, Method: Compositional matrix adjust.
+ Score = 493 bits (1268),  Expect = 9e-166, Method: Compositional matrix adjust.
  Identities = 233/303 (77%), Positives = 270/303 (89%), Gaps = 0/303 (0%)
 
 Query  365  DSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSF  424
@@ -267,11 +271,12 @@ Query  665  ILT  667
 Sbjct  323  VLT  325
 
 
->O54950 5'-AMP-activated protein kinase subunit gamma-1 OS=Mus musculus 
-OX=10090 GN=Prkag1 PE=1 SV=2
+>O54950.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-1; Short=AMPK gamma1; Short=AMPK subunit gamma-1; Short=AMPKg 
+[Mus musculus]
 Length=330
 
- Score = 493 bits (1268),  Expect = 1e-165, Method: Compositional matrix adjust.
+ Score = 493 bits (1268),  Expect = 9e-166, Method: Compositional matrix adjust.
  Identities = 241/333 (72%), Positives = 281/333 (84%), Gaps = 6/333 (2%)
 
 Query  340  ALAAALGPAEAGMLEKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQV  399
@@ -299,8 +304,9 @@ Query  640  HRLVVVNEADSIVGIISLSDILQALILTPAGAK  672
 Sbjct  297  HRLVVVDEHDVVKGIVSLSDILQALVLTGGEKK  329
 
 
->P54619 5'-AMP-activated protein kinase subunit gamma-1 OS=Homo sapiens 
-OX=9606 GN=PRKAG1 PE=1 SV=1
+>P54619.1 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-1; Short=AMPK gamma1; Short=AMPK subunit gamma-1; Short=AMPKg 
+[Homo sapiens]
 Length=331
 
  Score = 492 bits (1267),  Expect = 1e-165, Method: Compositional matrix adjust.
@@ -331,11 +337,12 @@ Query  665  ILTPAGAKQK  674
 Sbjct  323  VLT--GGEKK  330
 
 
->P80385 5'-AMP-activated protein kinase subunit gamma-1 OS=Rattus norvegicus 
-OX=10116 GN=Prkag1 PE=1 SV=3
+>P80385.3 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-1; Short=AMPK gamma1; Short=AMPK subunit gamma-1; Short=AMPKg 
+[Rattus norvegicus]
 Length=330
 
- Score = 492 bits (1266),  Expect = 2e-165, Method: Compositional matrix adjust.
+ Score = 492 bits (1266),  Expect = 1e-165, Method: Compositional matrix adjust.
  Identities = 235/310 (76%), Positives = 273/310 (88%), Gaps = 2/310 (1%)
 
 Query  365  DSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSF  424
@@ -363,8 +370,9 @@ Query  665  ILTPAGAKQK  674
 Sbjct  322  VLT--GGEKK  329
 
 
->P58108 5'-AMP-activated protein kinase subunit gamma-1 OS=Bos taurus 
-OX=9913 GN=PRKAG1 PE=2 SV=2
+>P58108.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-1; Short=AMPK gamma1; Short=AMPK subunit gamma-1; Short=AMPKg 
+[Bos taurus]
 Length=330
 
  Score = 491 bits (1265),  Expect = 3e-165, Method: Compositional matrix adjust.
@@ -395,8 +403,9 @@ Query  665  ILT  667
 Sbjct  323  VLT  325
 
 
->Q8BGM7 5'-AMP-activated protein kinase subunit gamma-3 OS=Mus musculus 
-OX=10090 GN=Prkag3 PE=1 SV=1
+>Q8BGM7.1 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-3; Short=AMPK gamma3; Short=AMPK subunit gamma-3 [Mus 
+musculus]
 Length=489
 
  Score = 440 bits (1131),  Expect = 5e-143, Method: Compositional matrix adjust.
@@ -427,11 +436,12 @@ Query  646  NEADSIVGIISLSDILQALILTPAG  670
 Sbjct  459  DETQHLLGVVSLSDILQALVLSPAG  483
 
 
->Q9UGI9 5'-AMP-activated protein kinase subunit gamma-3 OS=Homo sapiens 
-OX=9606 GN=PRKAG3 PE=1 SV=3
+>Q9UGI9.3 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-3; Short=AMPK gamma3; Short=AMPK subunit gamma-3 [Homo 
+sapiens]
 Length=489
 
- Score = 437 bits (1124),  Expect = 6e-142, Method: Compositional matrix adjust.
+ Score = 437 bits (1124),  Expect = 5e-142, Method: Compositional matrix adjust.
  Identities = 200/316 (63%), Positives = 267/316 (84%), Gaps = 1/316 (0%)
 
 Query  355  KLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAA  414
@@ -459,11 +469,12 @@ Query  655  ISLSDILQALILTPAG  670
 Sbjct  468  VSLSDILQALVLSPAG  483
 
 
->Q9MYP4 5'-AMP-activated protein kinase subunit gamma-3 OS=Sus scrofa 
-OX=9823 GN=PRKAG3 PE=2 SV=2
+>Q9MYP4.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-3; Short=AMPK gamma3; Short=AMPK subunit gamma-3 [Sus 
+scrofa]
 Length=514
 
- Score = 437 bits (1125),  Expect = 1e-141, Method: Compositional matrix adjust.
+ Score = 437 bits (1125),  Expect = 9e-142, Method: Compositional matrix adjust.
  Identities = 201/324 (62%), Positives = 271/324 (84%), Gaps = 1/324 (0%)
 
 Query  347  PAEAGMLEKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFAL  406
@@ -491,8 +502,9 @@ Query  647  EADSIVGIISLSDILQALILTPAG  670
 Sbjct  485  ETQHLLGVVSLSDILQALVLSPAG  508
 
 
->Q2LL38 5'-AMP-activated protein kinase subunit gamma-3 OS=Bos taurus 
-OX=9913 GN=PRKAG3 PE=2 SV=2
+>Q2LL38.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma-3; Short=AMPK gamma3; Short=AMPK subunit gamma-3 [Bos 
+taurus]
 Length=497
 
  Score = 431 bits (1108),  Expect = 2e-139, Method: Compositional matrix adjust.
@@ -523,11 +535,11 @@ Query  654  IISLSDILQALILTPAG  670
 Sbjct  475  VVSLSDILQALVLSPAG  491
 
 
->Q8T277 5'-AMP-activated protein kinase subunit gamma OS=Dictyostelium 
-discoideum OX=44689 GN=prkag PE=3 SV=3
+>Q8T277.3 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma; Short=AMPK subunit gamma [Dictyostelium discoideum]
 Length=577
 
- Score = 225 bits (573),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Score = 225 bits (573),  Expect = 4e-62, Method: Compositional matrix adjust.
  Identities = 121/323 (37%), Positives = 201/323 (62%), Gaps = 12/323 (4%)
 
 Query  353  LEKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVR  412
@@ -555,12 +567,13 @@ Query  643  VVVNEADSIVGIISLSDILQALI  665
 Sbjct  547  VCIDSSKKVEGILSLSDILNYLL  569
 
 
->P12904 5'-AMP-activated protein kinase subunit gamma OS=Saccharomyces 
-cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SNF4 
-PE=1 SV=1
+>P12904.1 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma; Short=AMPK gamma; Short=AMPK subunit gamma; AltName: 
+Full=Regulatory protein CAT3; AltName: Full=Sucrose non-fermenting 
+protein 4 [Saccharomyces cerevisiae S288C]
 Length=322
 
- Score = 200 bits (509),  Expect = 5e-56, Method: Composition-based stats.
+ Score = 200 bits (509),  Expect = 4e-56, Method: Composition-based stats.
  Identities = 111/321 (35%), Positives = 187/321 (58%), Gaps = 18/321 (6%)
 
 Query  354  EKLEFEDEAVEDSESGVYMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRA  413
@@ -588,12 +601,12 @@ Query  646  NEADSIVGIISLSDILQALIL  666
 Sbjct  299  DDVGRLVGVLTLSDILKYILL  319
 
 
->Q10343 5'-AMP-activated protein kinase subunit gamma OS=Schizosaccharomyces 
-pombe (strain 972 / ATCC 24843) OX=284812 GN=cbs2 PE=1 
-SV=2
+>Q10343.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma; Short=AMPK gamma; Short=AMPK subunit gamma [Schizosaccharomyces 
+pombe 972h-]
 Length=334
 
- Score = 189 bits (479),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Score = 189 bits (479),  Expect = 7e-52, Method: Compositional matrix adjust.
  Identities = 106/301 (35%), Positives = 179/301 (59%), Gaps = 13/301 (4%)
 
 Query  374  FMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSFVGMLTITDF  433
@@ -621,9 +634,9 @@ Query  665  I  665
 Sbjct  314  I  314
 
 
->Q9P869 5'-AMP-activated protein kinase subunit gamma OS=Kluyveromyces 
-lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 
-/ NRRL Y-1140 / WM37) OX=284590 GN=SNF4 PE=3 SV=2
+>Q9P869.2 RecName: Full=5'-AMP-activated protein kinase subunit 
+gamma; Short=AMPK gamma; Short=AMPK subunit gamma; AltName: 
+Full=Nuclear protein SNF4 [Kluyveromyces lactis NRRL Y-1140]
 Length=328
 
  Score = 172 bits (435),  Expect = 4e-46, Method: Compositional matrix adjust.
@@ -654,8 +667,11 @@ Query  642  LVVVNEADSIVGIISLSDILQALI  665
 Sbjct  301  FFVVDSNGFLTGVLTLSDILKYIL  324
 
 
->Q944A6 Sucrose nonfermenting 4-like protein OS=Arabidopsis thaliana 
-OX=3702 GN=SNF4 PE=1 SV=1
+>Q944A6.1 RecName: Full=Sucrose nonfermenting 4-like protein; 
+Short=SNF4; AltName: Full=CBS domain-containing protein CBSCBS3; 
+AltName: Full=SNF1-related protein kinase regulatory subunit 
+betagamma; Short=AKIN subunit betagamma; Short=AKINbetagamma 
+[Arabidopsis thaliana]
 Length=487
 
  Score = 133 bits (335),  Expect = 1e-31, Method: Compositional matrix adjust.
@@ -686,11 +702,13 @@ Query  636  RAEVHRLVVVNEADSIV-GIISLSDILQALI  665
 Sbjct  455  NPGVRRLVIVEAGSKRVEGIISLSDVFQFLL  485
 
 
->Q8LBB2 SNF1-related protein kinase regulatory subunit gamma-1 OS=Arabidopsis 
-thaliana OX=3702 GN=KING1 PE=1 SV=2
+>Q8LBB2.2 RecName: Full=SNF1-related protein kinase regulatory 
+subunit gamma-1; Short=AKIN subunit gamma-1; Short=AKING1; 
+Short=AKINgamma1; AltName: Full=CBS domain-containing protein 
+CBSCBS1 [Arabidopsis thaliana]
 Length=424
 
- Score = 59.7 bits (143),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Score = 59.7 bits (143),  Expect = 7e-08, Method: Compositional matrix adjust.
  Identities = 54/219 (25%), Positives = 101/219 (46%), Gaps = 16/219 (7%)
 
 Query  468  FKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK  527
@@ -710,12 +728,11 @@ Query  632  DRIVRAEVHRLVVVNEADSIVGIISLSDILQALILTPAG  670
 Sbjct  368  LMLDAEKIHRIYVVDDFGNLEGLITLRDIIARLVHEPSG  406
 
 
->A3LQC5 Protein SDS23 OS=Scheffersomyces stipitis (strain ATCC 58785 
-/ CBS 6054 / NBRC 10063 / NRRL Y-11545) OX=322104 GN=SDS23 PE=3 
-SV=2
+>A3LQC5.2 RecName: Full=Protein SDS23 [Scheffersomyces stipitis 
+CBS 6054]
 Length=530
 
- Score = 59.7 bits (143),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Score = 59.7 bits (143),  Expect = 8e-08, Method: Compositional matrix adjust.
  Identities = 64/298 (21%), Positives = 131/298 (44%), Gaps = 43/298 (14%)
 
 Query  387  SSKLVVFDTTLQVKKAFFALVANGVRAAP--LWESKKQSFVGMLT-----ITDFINILHR  439
@@ -739,12 +756,11 @@ Query  596  --------TYNNLDITVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVV  645
 Sbjct  345  HLLFKSVLTFISYNLSQKGIEEGQDQY--PIFHVNKQSSLGRVIAKLVATQSHRLWIV  400
 
 
->Q58622 Uncharacterized protein MJ1225 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ1225 PE=1 SV=1
+>Q58622.1 RecName: Full=Uncharacterized protein MJ1225 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=280
 
- Score = 53.5 bits (127),  Expect = 4e-06, Method: Composition-based stats.
+ Score = 53.5 bits (127),  Expect = 3e-06, Method: Composition-based stats.
  Identities = 46/212 (22%), Positives = 102/212 (48%), Gaps = 36/212 (17%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL----------  518
@@ -764,7 +780,7 @@ Query  633  RIVRAEVHRLVVVNEADSIVGIISLSDILQAL  664
 Sbjct  173  TMVRNGFRRLPVVSEG-RLVGIITSTDFIKLL  203
 
 
- Score = 41.6 bits (96),  Expect = 0.027, Method: Composition-based stats.
+ Score = 41.6 bits (96),  Expect = 0.024, Method: Composition-based stats.
  Identities = 33/138 (24%), Positives = 63/138 (46%), Gaps = 12/138 (9%)
 
 Query  538  LGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDE-SGKVVDIYSKFDVI-------  589
@@ -780,7 +796,7 @@ Query  648  ADSIVGIISLSDILQALI  665
 Sbjct  124  ENQLISLITERDVIRALL  141
 
 
- Score = 40.0 bits (92),  Expect = 0.073, Method: Composition-based stats.
+ Score = 40.0 bits (92),  Expect = 0.065, Method: Composition-based stats.
  Identities = 61/292 (21%), Positives = 126/292 (43%), Gaps = 35/292 (12%)
 
 Query  384  VPTSSKLVVFDTTLQVKKAFFALVANGVRAAPLWESKKQSFVGMLTITDFINILHRYYKS  443
@@ -804,7 +820,7 @@ Query  613  QYF--EGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQ  662
 Sbjct  226  EEIMKRDVITAKEGDKLKKIAEIMVTNDIGALPVVDENLRIKGIITEKDVLK  277
 
 
- Score = 34.7 bits (78),  Expect = 3.9, Method: Composition-based stats.
+ Score = 34.7 bits (78),  Expect = 3.4, Method: Composition-based stats.
  Identities = 33/124 (27%), Positives = 52/124 (42%), Gaps = 10/124 (8%)
 
 Query  475  SPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQN  534
@@ -820,8 +836,7 @@ Query  590  NLAA  593
 Sbjct  277  KYFA  280
 
 
->Q5A744 Protein SDS23 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) 
-OX=237561 GN=SDS24 PE=2 SV=2
+>Q5A744.2 RecName: Full=Protein SDS23 [Candida albicans SC5314]
 Length=628
 
  Score = 54.7 bits (130),  Expect = 4e-06, Method: Compositional matrix adjust.
@@ -848,7 +863,7 @@ Query  595  KT--------YNNLDITVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVN  646
 Sbjct  387  KNSHLLFKSVLNFISYNLSQKGIEEGQDQFPIFHVNNQTSLGRVIAKLVATQSHRLWIVD  446
 
 
- Score = 33.9 bits (76),  Expect = 8.6, Method: Compositional matrix adjust.
+ Score = 33.9 bits (76),  Expect = 7.6, Method: Compositional matrix adjust.
  Identities = 51/240 (21%), Positives = 99/240 (41%), Gaps = 38/240 (16%)
 
 Query  459  WRELYLQETFKP--LVNISPDASLFDAVYSLIKNKIHRLPV----IDP----------IS  502
@@ -868,11 +883,11 @@ Query  601  DITVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDI  660
 Sbjct  321  DFYLTSTLQDLKIGSSNPITIYEDQMLIEALHKMFNERVSSLAVIDRSRTLIGNISIVDV  380
 
 
->Q54H97 CBS domain-containing protein DDB_G0289609 OS=Dictyostelium discoideum 
-OX=44689 GN=DDB_G0289609 PE=2 SV=1
+>Q54H97.1 RecName: Full=CBS domain-containing protein DDB_G0289609 
+[Dictyostelium discoideum]
 Length=145
 
- Score = 50.1 bits (118),  Expect = 8e-06, Method: Composition-based stats.
+ Score = 50.1 bits (118),  Expect = 7e-06, Method: Composition-based stats.
  Identities = 35/124 (28%), Positives = 64/124 (52%), Gaps = 2/124 (2%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRI-LKFLQLFMSDMPK  527
@@ -888,12 +903,11 @@ Query  588  VINL  591
 Sbjct  130  LLDL  133
 
 
->Q58799 Uncharacterized protein MJ1404 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ1404 PE=4 SV=1
+>Q58799.1 RecName: Full=Uncharacterized protein MJ1404 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=421
 
- Score = 50.8 bits (120),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Score = 50.8 bits (120),  Expect = 4e-05, Method: Compositional matrix adjust.
  Identities = 48/193 (25%), Positives = 86/193 (45%), Gaps = 21/193 (11%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKP  528
@@ -913,9 +927,8 @@ Query  649  DSIVGIISLSDIL  661
 Sbjct  174  GNPVGMVTEVDIL  186
 
 
->A5DNL9 Protein SDS23 OS=Meyerozyma guilliermondii (strain ATCC 6260 
-/ CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324) OX=294746 
-GN=SDS23 PE=3 SV=2
+>A5DNL9.2 RecName: Full=Protein SDS23 [Meyerozyma guilliermondii 
+ATCC 6260]
 Length=536
 
  Score = 49.7 bits (117),  Expect = 1e-04, Method: Compositional matrix adjust.
@@ -938,9 +951,8 @@ Query  634  IVRAEVHRLVVV  645
 Sbjct  370  LVATQSHRLWVV  381
 
 
->Q58629 Uncharacterized protein MJ1232 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ1232 PE=4 SV=1
+>Q58629.1 RecName: Full=Uncharacterized protein MJ1232 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=296
 
  Score = 48.9 bits (115),  Expect = 1e-04, Method: Composition-based stats.
@@ -959,7 +971,7 @@ Query  645  VNEADSIVGIISLSDILQAL  664
 Sbjct  267  VDDNNKIVGIITRTDILKII  286
 
 
- Score = 33.9 bits (76),  Expect = 8.1, Method: Composition-based stats.
+ Score = 33.9 bits (76),  Expect = 7.2, Method: Composition-based stats.
  Identities = 16/56 (29%), Positives = 30/56 (54%), Gaps = 0/56 (0%)
 
 Query  545  NIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNL  600
@@ -967,12 +979,11 @@ Query  545  NIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNL  600
 Sbjct  239  DVITIHKDEKIYDALKIMNKNNVGRLVIVDDNNKIVGIITRTDILKIISGKFPENF  294
 
 
->Q58821 Uncharacterized protein MJ1426 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ1426 PE=4 SV=1
+>Q58821.1 RecName: Full=Uncharacterized protein MJ1426 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=168
 
- Score = 45.8 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Composition-based stats.
  Identities = 30/143 (21%), Positives = 72/143 (50%), Gaps = 27/143 (19%)
 
 Query  549  IHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVI----------NLAAEKTYN  598
@@ -988,7 +999,7 @@ Query  643  VVVNEADSIVGIISLSDILQALI  665
 Sbjct  146  PVVDDEGNLIGIVTRGDLIEALI  168
 
 
- Score = 34.7 bits (78),  Expect = 2.5, Method: Composition-based stats.
+ Score = 34.7 bits (78),  Expect = 2.2, Method: Composition-based stats.
  Identities = 17/50 (34%), Positives = 30/50 (60%), Gaps = 1/50 (2%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL  518
@@ -996,8 +1007,7 @@ Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL  518
 Sbjct  119  RKVIVAKPDMTINDAAKLMVKNNIKRLPVVDD-EGNLIGIVTRGDLIEAL  167
 
 
->Q6C5K4 Protein SDS23 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) 
-OX=284591 GN=SDS23 PE=3 SV=1
+>Q6C5K4.1 RecName: Full=Protein SDS23 [Yarrowia lipolytica CLIB122]
 Length=505
 
  Score = 47.0 bits (110),  Expect = 7e-04, Method: Compositional matrix adjust.
@@ -1028,11 +1038,13 @@ Query  554  PIIKALNIFVERRISALPVVDESGKVVDIYSKFDV  588
 Sbjct  314  YVIAALRKMNAQNVSSLAVVDASNNLLGNISVVDV  348
 
 
->Q9XI37 SNF1-related protein kinase regulatory subunit gamma-like PV42a 
-OS=Arabidopsis thaliana OX=3702 GN=PV42A PE=2 SV=1
+>Q9XI37.1 RecName: Full=SNF1-related protein kinase regulatory 
+subunit gamma-like PV42a; Short=AtPV42a; AltName: Full=AKIN 
+subunit gamma-like PV42a; AltName: Full=CBS domain-containing 
+protein CBSCBS4 [Arabidopsis thaliana]
 Length=352
 
- Score = 46.2 bits (108),  Expect = 0.001, Method: Compositional matrix adjust.
+ Score = 46.2 bits (108),  Expect = 9e-04, Method: Compositional matrix adjust.
  Identities = 76/344 (22%), Positives = 140/344 (41%), Gaps = 77/344 (22%)
 
 Query  382  DIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPL------W---------ESKKQS---  423
@@ -1060,8 +1072,8 @@ Query  621  CNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQAL  664
 Sbjct  304  CGVESTMEEAIEKVVTRGVHRVWVMDQQGLLQGVVSLTDIIRSL  347
 
 
->P15889 Uncharacterized 33.4 kDa protein in ribosomal RNA operon OS=Thermofilum 
-pendens OX=2269 PE=4 SV=1
+>P15889.1 RecName: Full=Uncharacterized 33.4 kDa protein in ribosomal 
+RNA operon [Thermofilum pendens]
 Length=300
 
  Score = 45.8 bits (107),  Expect = 0.001, Method: Composition-based stats.
@@ -1084,7 +1096,7 @@ Query  639  VHRLVVVNEADSIVGIISLSDILQALILTPAGAKQKE  675
 Sbjct  179  --RLPLVS-GEELRGIVTIKDVLSYVSREDVLARLKE  212
 
 
- Score = 40.4 bits (93),  Expect = 0.057, Method: Composition-based stats.
+ Score = 40.4 bits (93),  Expect = 0.050, Method: Composition-based stats.
  Identities = 36/157 (23%), Positives = 69/157 (44%), Gaps = 19/157 (12%)
 
 Query  535  LDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAE  594
@@ -1100,8 +1112,7 @@ Query  642  LVVVNEADSIVGIISLSDILQALILTPAGAKQKETET  678
 Sbjct  117  LAVVDEDLRVVGIVSERHVISLLANVETHVKVKEIMT  153
 
 
->A7FA72 Protein sds23 OS=Botryotinia fuckeliana (strain B05.10) OX=332648 
-GN=sds23 PE=3 SV=1
+>A7FA72.1 RecName: Full=Protein sds23 [Botrytis cinerea B05.10]
 Length=482
 
  Score = 46.2 bits (108),  Expect = 0.001, Method: Compositional matrix adjust.
@@ -1124,8 +1135,11 @@ Query  623  KLEILETIVDRIVRAEVHRLVVV  645
 Sbjct  341  PYSTLAHTVAKLVATRSHRMWVV  363
 
 
->O23193 CBS domain-containing protein CBSX1, chloroplastic OS=Arabidopsis 
-thaliana OX=3702 GN=CBSX1 PE=1 SV=2
+>O23193.2 RecName: Full=CBS domain-containing protein CBSX1, chloroplastic; 
+AltName: Full=CBS domain-containing protein 2; 
+Short=AtCDCP2; AltName: Full=Protein LOSS OF THE TIMING OF 
+ET AND JA BIOSYNTHESIS 2; Short=AtLEJ2; Flags: Precursor [Arabidopsis 
+thaliana]
 Length=236
 
  Score = 44.7 bits (104),  Expect = 0.002, Method: Compositional matrix adjust.
@@ -1144,9 +1158,9 @@ Query  644  VVNEADSIVGIISLSDILQALI  665
 Sbjct  205  VVDSDGKLVGIITRGNVVRAAL  226
 
 
->P42851 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus furiosus 
-(strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=guaB 
-PE=3 SV=1
+>P42851.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Pyrococcus 
+furiosus DSM 3638]
 Length=485
 
  Score = 45.4 bits (106),  Expect = 0.002, Method: Compositional matrix adjust.
@@ -1165,7 +1179,7 @@ Query  571  PVVDESGKVVDIYSKFDVINLAAEKTYNN  599
 Sbjct  185  PVVNEDGKLVGLITMSD---LVARKKYKN  210
 
 
- Score = 35.0 bits (79),  Expect = 3.6, Method: Compositional matrix adjust.
+ Score = 35.0 bits (79),  Expect = 3.2, Method: Compositional matrix adjust.
  Identities = 34/118 (29%), Positives = 58/118 (49%), Gaps = 15/118 (13%)
 
 Query  544  HNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDIT  603
@@ -1177,11 +1191,11 @@ Query  604  VTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDIL  661
 Sbjct  152  VKELMTRE------VITVPESVDVEEALKIMMENRIDRLPVVNEDGKLVGLITMSDLV  203
 
 
->Q75EC0 Protein SDS23 OS=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 
-/ FGSC 9923 / NRRL Y-1056) OX=284811 GN=SDS23 PE=3 SV=1
+>Q75EC0.1 RecName: Full=Protein SDS23 [Eremothecium gossypii ATCC 
+10895]
 Length=487
 
- Score = 44.7 bits (104),  Expect = 0.005, Method: Compositional matrix adjust.
+ Score = 44.7 bits (104),  Expect = 0.004, Method: Compositional matrix adjust.
  Identities = 43/197 (22%), Positives = 80/197 (41%), Gaps = 35/197 (18%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK-PAFMKQN  534
@@ -1201,12 +1215,12 @@ Query  629  TIVDRIVRAEVHRLVVV  645
 Sbjct  371  RTVAKLVATKAHRLWIV  387
 
 
->Q59011 Inosine-5'-monophosphate dehydrogenase OS=Methanocaldococcus 
-jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
-/ NBRC 100440) OX=243232 GN=guaB PE=3 SV=1
+>Q59011.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=496
 
- Score = 43.9 bits (102),  Expect = 0.007, Method: Compositional matrix adjust.
+ Score = 43.9 bits (102),  Expect = 0.006, Method: Compositional matrix adjust.
  Identities = 34/123 (28%), Positives = 62/123 (50%), Gaps = 22/123 (18%)
 
 Query  545  NIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITV  604
@@ -1222,12 +1236,12 @@ Query  660  ILQ  662
 Sbjct  202  ILK  204
 
 
->O58045 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus horikoshii 
-(strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 
-/ OT-3) OX=70601 GN=guaB PE=1 SV=1
+>O58045.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Pyrococcus 
+horikoshii OT3]
 Length=486
 
- Score = 43.9 bits (102),  Expect = 0.007, Method: Compositional matrix adjust.
+ Score = 43.9 bits (102),  Expect = 0.006, Method: Compositional matrix adjust.
  Identities = 39/153 (25%), Positives = 68/153 (44%), Gaps = 31/153 (20%)
 
 Query  453  EHKIETWRELYLQETF--KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILT  510
@@ -1243,11 +1257,11 @@ Query  567  ISALPVVDESGKVVDIYSKFDVINLAAEKTYNN  599
 Sbjct  181  IDRLPVVDERGKLVGLITMSD---LVARKKYKN  210
 
 
->A7F3V4 Protein sds23 OS=Sclerotinia sclerotiorum (strain ATCC 18683 
-/ 1980 / Ss-1) OX=665079 GN=sds23 PE=3 SV=1
+>A7F3V4.1 RecName: Full=Protein sds23 [Sclerotinia sclerotiorum 
+1980 UF-70]
 Length=545
 
- Score = 43.9 bits (102),  Expect = 0.008, Method: Compositional matrix adjust.
+ Score = 43.9 bits (102),  Expect = 0.007, Method: Compositional matrix adjust.
  Identities = 38/140 (27%), Positives = 64/140 (46%), Gaps = 11/140 (8%)
 
 Query  453  EHKIETWRELYLQETFKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHK  512
@@ -1263,11 +1277,12 @@ Query  568  SALPVVDESGKVVDIYSKFD  587
 Sbjct  278  TSIAVVDNAANVVGNISTAD  297
 
 
->Q9UY49 Inosine-5'-monophosphate dehydrogenase OS=Pyrococcus abyssi (strain 
-GE5 / Orsay) OX=272844 GN=guaB PE=3 SV=1
+>Q9UY49.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Pyrococcus 
+abyssi GE5]
 Length=485
 
- Score = 42.7 bits (99),  Expect = 0.019, Method: Compositional matrix adjust.
+ Score = 42.7 bits (99),  Expect = 0.016, Method: Compositional matrix adjust.
  Identities = 36/153 (24%), Positives = 72/153 (47%), Gaps = 31/153 (20%)
 
 Query  453  EHKIETWRELYLQETF--KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILT  510
@@ -1283,11 +1298,14 @@ Query  567  ISALPVVDESGKVVDIYSKFDVINLAAEKTYNN  599
 Sbjct  181  IDRLPVVDKEGRLIGLITMSD---LVARKKYKN  210
 
 
->Q9C5D0 CBS domain-containing protein CBSX2, chloroplastic OS=Arabidopsis 
-thaliana OX=3702 GN=CBSX2 PE=1 SV=1
+>Q9C5D0.1 RecName: Full=CBS domain-containing protein CBSX2, chloroplastic; 
+AltName: Full=CBS domain-containing protein 1; 
+Short=AtCDCP1; AltName: Full=Protein LOSS OF THE TIMING OF 
+ET AND JA BIOSYNTHESIS 1; Short=AtLEJ1; Flags: Precursor [Arabidopsis 
+thaliana]
 Length=238
 
- Score = 41.2 bits (95),  Expect = 0.027, Method: Composition-based stats.
+ Score = 41.2 bits (95),  Expect = 0.024, Method: Composition-based stats.
  Identities = 34/159 (21%), Positives = 73/159 (46%), Gaps = 33/159 (21%)
 
 Query  544  HNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINL------------  591
@@ -1303,12 +1321,11 @@ Query  641  RLVVVNEADSIVGIISLSDILQALILTPAGAKQKETETE  679
 Sbjct  204  RLPVVDADGKLIGILTRGNVVRA-------ALQIKRETE  235
 
 
->Q57564 L-aspartate semialdehyde sulfurtransferase OS=Methanocaldococcus 
-jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 
-/ NBRC 100440) OX=243232 GN=MJ0100 PE=1 SV=1
+>Q57564.1 RecName: Full=L-aspartate semialdehyde sulfurtransferase 
+[Methanocaldococcus jannaschii DSM 2661]
 Length=509
 
- Score = 41.6 bits (96),  Expect = 0.038, Method: Compositional matrix adjust.
+ Score = 41.6 bits (96),  Expect = 0.033, Method: Compositional matrix adjust.
  Identities = 36/127 (28%), Positives = 58/127 (46%), Gaps = 14/127 (11%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKP  528
@@ -1324,7 +1341,7 @@ Query  589  INLAAEK  595
 Sbjct  502  SRLFGGK  508
 
 
- Score = 41.2 bits (95),  Expect = 0.051, Method: Compositional matrix adjust.
+ Score = 41.2 bits (95),  Expect = 0.045, Method: Compositional matrix adjust.
  Identities = 26/111 (23%), Positives = 57/111 (51%), Gaps = 11/111 (10%)
 
 Query  550  HPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQ  609
@@ -1336,12 +1353,11 @@ Query  610  HRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDI  660
 Sbjct  457  RN------VITAHEDEPVDHVAIKMSKYNISGVPVVDDYRRVVGIVTSEDI  501
 
 
->Q58332 Uncharacterized protein MJ0922 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ0922 PE=1 SV=1
+>Q58332.1 RecName: Full=Uncharacterized protein MJ0922 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=138
 
- Score = 39.3 bits (90),  Expect = 0.040, Method: Composition-based stats.
+ Score = 39.3 bits (90),  Expect = 0.036, Method: Composition-based stats.
  Identities = 30/115 (26%), Positives = 60/115 (52%), Gaps = 12/115 (10%)
 
 Query  555  IIKALNIFVERRISALPVVDESGKVVDIYSKFDV-INLAAEKTYNNLDITVTQALQHRSQ  613
@@ -1353,11 +1369,11 @@ Query  614  YFEGVVKCNKLEILETIVDRIVRAE----VHRLVVVNEADSIVGIISLSDILQAL  664
 Sbjct  82   --DVITIHEDASILEAIKKMDISGKKEEIINQLPVVDKNNKLVGIISDGDIIRTI  134
 
 
->Q0U194 Protein SDS23 OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 
-/ FGSC 10173) OX=321614 GN=SDS23 PE=3 SV=1
+>Q0U194.1 RecName: Full=Protein SDS23 [Parastagonospora nodorum 
+SN15]
 Length=536
 
- Score = 41.2 bits (95),  Expect = 0.053, Method: Compositional matrix adjust.
+ Score = 41.2 bits (95),  Expect = 0.047, Method: Compositional matrix adjust.
  Identities = 33/125 (26%), Positives = 60/125 (48%), Gaps = 11/125 (9%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK-  527
@@ -1373,11 +1389,11 @@ Query  584  SKFDV  588
 Sbjct  316  SHVDV  320
 
 
->A7TL18 Protein SDS23 OS=Vanderwaltozyma polyspora (strain ATCC 22028 
-/ DSM 70294) OX=436907 GN=SDS23 PE=3 SV=1
+>A7TL18.1 RecName: Full=Protein SDS23 [Vanderwaltozyma polyspora 
+DSM 70294]
 Length=525
 
- Score = 40.8 bits (94),  Expect = 0.061, Method: Compositional matrix adjust.
+ Score = 40.8 bits (94),  Expect = 0.054, Method: Compositional matrix adjust.
  Identities = 32/125 (26%), Positives = 55/125 (44%), Gaps = 13/125 (10%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMP--KPAFMKQ  533
@@ -1393,12 +1409,11 @@ Query  584  SKFDV  588
 Sbjct  367  SVTDV  371
 
 
->Q6FMN0 Protein SDS23 OS=Candida glabrata (strain ATCC 2001 / CBS 138 
-/ JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=SDS23 PE=3 
-SV=1
+>Q6FMN0.1 RecName: Full=Protein SDS23 [[Candida] glabrata CBS 
+138]
 Length=548
 
- Score = 40.8 bits (94),  Expect = 0.065, Method: Compositional matrix adjust.
+ Score = 40.8 bits (94),  Expect = 0.058, Method: Compositional matrix adjust.
  Identities = 30/136 (22%), Positives = 61/136 (45%), Gaps = 17/136 (13%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL----QLFMSDMPKPAFM  531
@@ -1414,11 +1429,11 @@ Query  582  IYSKFDVINLAAEKTY  597
 Sbjct  352  NISVTDVKHVTRTSQY  367
 
 
->P53172 Protein SDS23 OS=Saccharomyces cerevisiae (strain ATCC 204508 
-/ S288c) OX=559292 GN=SDS23 PE=1 SV=2
+>A6ZUC0.1 RecName: Full=Protein SDS23 [Saccharomyces cerevisiae 
+YJM789]
 Length=527
 
- Score = 40.4 bits (93),  Expect = 0.092, Method: Compositional matrix adjust.
+ Score = 40.4 bits (93),  Expect = 0.081, Method: Compositional matrix adjust.
  Identities = 33/135 (24%), Positives = 59/135 (44%), Gaps = 14/135 (10%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMP--KPAFMKQ  533
@@ -1434,11 +1449,11 @@ Query  583  YSKFDVINLAAEKTY  597
 Sbjct  314  ISVTDVKHVTRTSQY  328
 
 
->A6ZUC0 Protein SDS23 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 
-GN=SDS23 PE=3 SV=1
+>P53172.2 RecName: Full=Protein SDS23 [Saccharomyces cerevisiae 
+S288C]
 Length=527
 
- Score = 40.4 bits (93),  Expect = 0.092, Method: Compositional matrix adjust.
+ Score = 40.4 bits (93),  Expect = 0.081, Method: Compositional matrix adjust.
  Identities = 33/135 (24%), Positives = 59/135 (44%), Gaps = 14/135 (10%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMP--KPAFMKQ  533
@@ -1454,12 +1469,12 @@ Query  583  YSKFDVINLAAEKTY  597
 Sbjct  314  ISVTDVKHVTRTSQY  328
 
 
->Q9KGN8 Inosine-5'-monophosphate dehydrogenase OS=Bacillus halodurans 
-(strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) 
-OX=272558 GN=guaB PE=3 SV=1
+>Q9KGN8.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Bacillus 
+halodurans C-125]
 Length=485
 
- Score = 40.0 bits (92),  Expect = 0.098, Method: Compositional matrix adjust.
+ Score = 40.0 bits (92),  Expect = 0.087, Method: Compositional matrix adjust.
  Identities = 32/115 (28%), Positives = 59/115 (51%), Gaps = 14/115 (12%)
 
 Query  474  ISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQ  533
@@ -1471,7 +1486,7 @@ Query  534  NLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDV  588
 Sbjct  159  NLVTAPVG-----------TTLKEAEEILQKHKIEKLPLVDESGTLKGLITIKDI  202
 
 
- Score = 36.2 bits (82),  Expect = 1.6, Method: Compositional matrix adjust.
+ Score = 36.2 bits (82),  Expect = 1.4, Method: Compositional matrix adjust.
  Identities = 36/136 (26%), Positives = 68/136 (50%), Gaps = 14/136 (10%)
 
 Query  541  GTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNL  600
@@ -1487,11 +1502,13 @@ Query  660  ILQALILTPAGAKQKE  675
 Sbjct  202  I-EKVIEFPNSAKDSQ  216
 
 
->Q8GXI9 SNF1-related protein kinase regulatory subunit gamma-like PV42b 
-OS=Arabidopsis thaliana OX=3702 GN=PV42B PE=2 SV=1
+>Q8GXI9.1 RecName: Full=SNF1-related protein kinase regulatory 
+subunit gamma-like PV42b; Short=AtPV42b; AltName: Full=AKIN 
+subunit gamma-like PV42b; AltName: Full=CBS domain-containing 
+protein CBSX4 [Arabidopsis thaliana]
 Length=357
 
- Score = 40.0 bits (92),  Expect = 0.099, Method: Compositional matrix adjust.
+ Score = 40.0 bits (92),  Expect = 0.088, Method: Compositional matrix adjust.
  Identities = 74/358 (21%), Positives = 134/358 (37%), Gaps = 86/358 (24%)
 
 Query  371  YMRFMRSHKCYDIVPTSSKLVVFDTTLQVKKAFFALVANGVRAAPL------W-------  417
@@ -1519,11 +1536,10 @@ Query  619  ---------------VKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDIL  661
 Sbjct  285  TLLFTAATSTPGRELVTCHVTSTLAQVIHMVTTKRVHRVWVVDQNGGLQGLVSLTDII  342
 
 
->A2RB71 Protein sds23 OS=Aspergillus niger (strain CBS 513.88 / FGSC 
-A1513) OX=425011 GN=sds23 PE=3 SV=1
+>A2RB71.1 RecName: Full=Protein sds23 [Aspergillus niger CBS 513.88]
 Length=508
 
- Score = 40.0 bits (92),  Expect = 0.10, Method: Compositional matrix adjust.
+ Score = 40.0 bits (92),  Expect = 0.093, Method: Compositional matrix adjust.
  Identities = 51/188 (27%), Positives = 76/188 (40%), Gaps = 12/188 (6%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK-  527
@@ -1543,12 +1559,11 @@ Query  639  VHRLVVVN  646
 Sbjct  381  SHRLWVTD  388
 
 
->Q2HHB4 Protein SDS23 OS=Chaetomium globosum (strain ATCC 6205 / CBS 
-148.51 / DSM 1962 / NBRC 6347 / NRRL 1970) OX=306901 GN=SDS23 
-PE=3 SV=1
+>Q2HHB4.1 RecName: Full=Protein SDS23 [Chaetomium globosum CBS 
+148.51]
 Length=534
 
- Score = 39.3 bits (90),  Expect = 0.18, Method: Compositional matrix adjust.
+ Score = 39.3 bits (90),  Expect = 0.16, Method: Compositional matrix adjust.
  Identities = 50/196 (26%), Positives = 87/196 (44%), Gaps = 14/196 (7%)
 
 Query  460  RELYLQETFKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQ  519
@@ -1568,11 +1583,12 @@ Query  630  IVDRIVRAEVHRLVVV  645
 Sbjct  370  TVAKLVATKSHRMWVV  385
 
 
->O67820 Inosine-5'-monophosphate dehydrogenase OS=Aquifex aeolicus (strain 
-VF5) OX=224324 GN=guaB PE=3 SV=1
+>O67820.1 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH [Aquifex 
+aeolicus VF5]
 Length=490
 
- Score = 38.9 bits (89),  Expect = 0.26, Method: Compositional matrix adjust.
+ Score = 38.9 bits (89),  Expect = 0.23, Method: Compositional matrix adjust.
  Identities = 35/128 (27%), Positives = 59/128 (46%), Gaps = 15/128 (12%)
 
 Query  472  VNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFM  531
@@ -1588,7 +1604,7 @@ Query  592  AAEKTYNN  599
 Sbjct  208  --RKKYPN  213
 
 
- Score = 38.5 bits (88),  Expect = 0.31, Method: Compositional matrix adjust.
+ Score = 38.5 bits (88),  Expect = 0.27, Method: Compositional matrix adjust.
  Identities = 31/122 (25%), Positives = 61/122 (50%), Gaps = 9/122 (7%)
 
 Query  541  GTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNL  600
@@ -1604,12 +1620,11 @@ Query  661  LQ  662
 Sbjct  206  VK  207
 
 
->Q6CUE1 Protein SDS23 OS=Kluyveromyces lactis (strain ATCC 8585 / CBS 
-2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37) OX=284590 
-GN=SDS23 PE=3 SV=1
+>Q6CUE1.1 RecName: Full=Protein SDS23 [Kluyveromyces lactis NRRL 
+Y-1140]
 Length=518
 
- Score = 38.9 bits (89),  Expect = 0.26, Method: Compositional matrix adjust.
+ Score = 38.9 bits (89),  Expect = 0.23, Method: Compositional matrix adjust.
  Identities = 76/357 (21%), Positives = 145/357 (41%), Gaps = 73/357 (20%)
 
 Query  365  DSESGVYMRFMRSHKC-YDIVPTS-----SKLVVFDTTLQVKKAFFALVANGVRAAPLWE  418
@@ -1637,11 +1652,10 @@ Query  627  ------LETIVDRIVRAEVHRLVVV---------NEAD----SIVGIISLSDILQAL  664
 Sbjct  439  VYPTSSLARTIAKLVATKAHRLWIVQPSGDTPVDSEKDKRSGKLIGVVSLTDILGLL  495
 
 
->Q874W3 Protein SDS23 OS=Podospora anserina OX=2587412 GN=SDS23 PE=3 
-SV=1
+>Q874W3.1 RecName: Full=Protein SDS23 [Podospora anserina]
 Length=513
 
- Score = 38.5 bits (88),  Expect = 0.31, Method: Compositional matrix adjust.
+ Score = 38.5 bits (88),  Expect = 0.27, Method: Compositional matrix adjust.
  Identities = 48/186 (26%), Positives = 77/186 (41%), Gaps = 19/186 (10%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK-PAFMKQN  534
@@ -1661,12 +1675,12 @@ Query  643  VVVNEA  648
 Sbjct  373  WVVETA  378
 
 
->D7E9E0 Homoserine O-acetyltransferase OS=Methanohalobium evestigatum 
-(strain ATCC BAA-1072 / DSM 3721 / NBRC 107634 / OCM 161 / 
-Z-7303) OX=644295 GN=metXA PE=1 SV=1
+>D7E9E0.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanohalobium 
+evestigatum Z-7303]
 Length=489
 
- Score = 38.1 bits (87),  Expect = 0.40, Method: Compositional matrix adjust.
+ Score = 38.1 bits (87),  Expect = 0.36, Method: Compositional matrix adjust.
  Identities = 34/129 (26%), Positives = 57/129 (44%), Gaps = 18/129 (14%)
 
 Query  468  FKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMS-DMP  526
@@ -1682,12 +1696,11 @@ Query  586  FDVINLAAE  594
 Sbjct  480  EDISRLIEE  488
 
 
->Q57892 Uncharacterized protein MJ0450 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ0450 PE=4 SV=1
+>Q57892.1 RecName: Full=Uncharacterized protein MJ0450 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=186
 
- Score = 37.0 bits (84),  Expect = 0.47, Method: Composition-based stats.
+ Score = 37.0 bits (84),  Expect = 0.42, Method: Composition-based stats.
  Identities = 33/127 (26%), Positives = 69/127 (54%), Gaps = 11/127 (9%)
 
 Query  469  KPLVNISPDASLFDAVYSLIKNKIH-RLPVIDPISGNALYILTHKRILKFLQLFMSDMPK  527
@@ -1703,11 +1716,12 @@ Query  588  VINLAAE  594
 Sbjct  123  LIKIAPE  129
 
 
->K2QXP6 Homoserine O-acetyltransferase OS=Methanobacterium formicicum 
-(strain DSM 3637 / PP1) OX=1204725 GN=metXA PE=1 SV=1
+>K2QXP6.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanobacterium 
+formicicum DSM 3637]
 Length=493
 
- Score = 37.4 bits (85),  Expect = 0.75, Method: Compositional matrix adjust.
+ Score = 37.4 bits (85),  Expect = 0.66, Method: Compositional matrix adjust.
  Identities = 33/126 (26%), Positives = 64/126 (51%), Gaps = 15/126 (12%)
 
 Query  547  AFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQ  606
@@ -1723,11 +1737,10 @@ Query  667  TPAGAK  672
 Sbjct  489  --AGDK  492
 
 
->A4QRM8 Protein SDS23 OS=Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 
-/ FGSC 8958) OX=242507 GN=SDS23 PE=3 SV=1
+>A4QRM8.1 RecName: Full=Protein SDS23 [Pyricularia oryzae 70-15]
 Length=534
 
- Score = 37.4 bits (85),  Expect = 0.79, Method: Compositional matrix adjust.
+ Score = 37.4 bits (85),  Expect = 0.70, Method: Compositional matrix adjust.
  Identities = 45/181 (25%), Positives = 77/181 (43%), Gaps = 12/181 (7%)
 
 Query  471  LVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLFMSDMPK-PA  529
@@ -1747,12 +1760,12 @@ Query  642  L  642
 Sbjct  385  M  385
 
 
->Q8TME4 Homoserine O-acetyltransferase OS=Methanosarcina acetivorans 
-(strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A) OX=188937 GN=metXA 
-PE=1 SV=1
+>Q8TME4.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanosarcina 
+acetivorans C2A]
 Length=540
 
- Score = 37.0 bits (84),  Expect = 0.99, Method: Compositional matrix adjust.
+ Score = 37.0 bits (84),  Expect = 0.88, Method: Compositional matrix adjust.
  Identities = 40/178 (22%), Positives = 78/178 (44%), Gaps = 23/178 (13%)
 
 Query  484  VYSLIKNKIH-RLPVIDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGT  542
@@ -1768,11 +1781,12 @@ Query  603  TVTQALQHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDI  660
 Sbjct  485  IITRDVKY-------VYEDEKIEHASSIME---KHSISALPVIDSEHRIIGIVTSESI  532
 
 
->P38314 Protein SDS24 OS=Saccharomyces cerevisiae (strain ATCC 204508 
-/ S288c) OX=559292 GN=SDS24 PE=1 SV=1
+>A6ZLF4.1 RecName: Full=Protein SDS24 [Saccharomyces cerevisiae 
+YJM789] P38314.1 RecName: Full=Protein SDS24 [Saccharomyces 
+cerevisiae S288C]
 Length=527
 
- Score = 37.0 bits (84),  Expect = 1.0, Method: Compositional matrix adjust.
+ Score = 37.0 bits (84),  Expect = 0.90, Method: Compositional matrix adjust.
  Identities = 30/136 (22%), Positives = 59/136 (43%), Gaps = 17/136 (13%)
 
 Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL----QLFMSDMPKPAFM  531
@@ -1788,32 +1802,12 @@ Query  582  IYSKFDVINLAAEKTY  597
 Sbjct  325  NISVTDVKHVTRTSQY  340
 
 
->A6ZLF4 Protein SDS24 OS=Saccharomyces cerevisiae (strain YJM789) OX=307796 
-GN=SDS24 PE=3 SV=1
-Length=527
-
- Score = 37.0 bits (84),  Expect = 1.0, Method: Compositional matrix adjust.
- Identities = 30/136 (22%), Positives = 59/136 (43%), Gaps = 17/136 (13%)
-
-Query  476  PDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFL----QLFMSDMPKPAFM  531
-            P+      V  ++ + +HR+ + +        IL+ +R++K+L    + F S  P    +
-Sbjct  208  PENESLSTVMGILGSGVHRVAITNEEMTKVKGILSQRRLIKYLWDNARSFTSLEP---LL  264
-
-Query  532  KQNLDELGIGTYH----------NIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVD  581
-              +L +L IG  +           +  I  + P+I  L      RIS++ V+D+ G ++ 
-Sbjct  265  NSSLQDLHIGVLNIQSKPTSRQSRVISIQGEEPLIMGLYKMHVERISSIAVIDKQGNLLG  324
-
-Query  582  IYSKFDVINLAAEKTY  597
-              S  DV ++     Y
-Sbjct  325  NISVTDVKHVTRTSQY  340
-
-
->A6UNL1 Homoserine O-acetyltransferase OS=Methanococcus vannielii (strain 
-ATCC 35089 / DSM 1224 / JCM 13029 / OCM 148 / SB) OX=406327 
-GN=metXA PE=1 SV=1
+>A6UNL1.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanococcus 
+vannielii SB]
 Length=492
 
- Score = 37.0 bits (84),  Expect = 1.0, Method: Compositional matrix adjust.
+ Score = 37.0 bits (84),  Expect = 0.92, Method: Compositional matrix adjust.
  Identities = 33/170 (19%), Positives = 77/170 (45%), Gaps = 20/170 (12%)
 
 Query  498  IDPISGNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGTYHNIAFIHPDTPIIK  557
@@ -1829,12 +1823,12 @@ Query  617  GVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALIL  666
 Sbjct  451  --------DKIEKIAIKMQEYNISCLPVVDQNGLVIGMISAENITNTITI  492
 
 
->D3E3E4 Homoserine O-acetyltransferase OS=Methanobrevibacter ruminantium 
-(strain ATCC 35063 / DSM 1093 / JCM 13430 / OCM 146 / M1) 
-OX=634498 GN=metXA PE=1 SV=1
+>D3E3E4.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanobrevibacter 
+ruminantium M1]
 Length=490
 
- Score = 36.6 bits (83),  Expect = 1.2, Method: Compositional matrix adjust.
+ Score = 36.6 bits (83),  Expect = 1.1, Method: Compositional matrix adjust.
  Identities = 36/158 (23%), Positives = 75/158 (47%), Gaps = 22/158 (14%)
 
 Query  503  GNALYILTHKRILKFLQLFMSDMPKPAFMKQNLDELGIGTYHNIAFIHPDTPIIKALNIF  562
@@ -1850,12 +1844,11 @@ Query  623  KLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDI  660
 Sbjct  446  STDSIEYISRQMKKFDISCLPVVNDDLCLEGIITTDQI  483
 
 
->Q57647 Uncharacterized protein MJ0188 OS=Methanocaldococcus jannaschii 
-(strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 
-100440) OX=243232 GN=MJ0188 PE=4 SV=1
+>Q57647.1 RecName: Full=Uncharacterized protein MJ0188 [Methanocaldococcus 
+jannaschii DSM 2661]
 Length=265
 
- Score = 36.2 bits (82),  Expect = 1.4, Method: Composition-based stats.
+ Score = 36.2 bits (82),  Expect = 1.2, Method: Composition-based stats.
  Identities = 20/46 (43%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
 
 Query  551  PDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKT  596
@@ -1863,11 +1856,13 @@ Query  551  PDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKT  596
 Sbjct  78   PDANIMDVGRIMFRTGFSKLPVVDEENNLVGIISNMDVIRSQIEKT  123
 
 
->Q09826 Protein sds23/moc1 OS=Schizosaccharomyces pombe (strain 972 / 
-ATCC 24843) OX=284812 GN=sds23 PE=1 SV=1
+>Q09826.1 RecName: Full=Protein sds23/moc1; AltName: Full=Multicopy 
+suppressor of overexpressed cyr1 protein 1; AltName: Full=Phosphoprotein 
+at stationary phase 1 protein [Schizosaccharomyces 
+pombe 972h-]
 Length=408
 
- Score = 35.8 bits (81),  Expect = 2.4, Method: Compositional matrix adjust.
+ Score = 35.8 bits (81),  Expect = 2.2, Method: Compositional matrix adjust.
  Identities = 23/74 (31%), Positives = 41/74 (55%), Gaps = 4/74 (5%)
 
 Query  521  FMSDMPKPAFMKQN-LDELGIGTYHN--IAFIHPDTPIIKALNIFVERRISALPVVDESG  577
@@ -1879,11 +1874,10 @@ Query  578  KVVDIYSKFDVINL  591
 Sbjct  87   S-NEIATTFDYADL  99
 
 
->Q03297 Period circadian protein (Fragment) OS=Drosophila willistoni 
-OX=7260 GN=per PE=3 SV=2
+>Q03297.2 RecName: Full=Period circadian protein [Drosophila willistoni]
 Length=1093
 
- Score = 35.8 bits (81),  Expect = 2.6, Method: Compositional matrix adjust.
+ Score = 35.8 bits (81),  Expect = 2.3, Method: Compositional matrix adjust.
  Identities = 32/107 (30%), Positives = 49/107 (46%), Gaps = 17/107 (16%)
 
 Query  557  KALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQHRSQYFE  616
@@ -1895,12 +1889,12 @@ Query  617  GVVKCNKLEILETIVDRIVRAEV------HRLVVVNEADSIV-GIIS  656
 Sbjct  469  -------ANFMETLMDEITRADLKLDLPHENELTVSERDSVMLGEIS  508
 
 
->Q12XS2 Homoserine O-acetyltransferase OS=Methanococcoides burtonii (strain 
-DSM 6242 / NBRC 107633 / OCM 468 / ACE-M) OX=259564 GN=metXA 
-PE=1 SV=1
+>Q12XS2.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanococcoides 
+burtonii DSM 6242]
 Length=488
 
- Score = 35.8 bits (81),  Expect = 2.6, Method: Compositional matrix adjust.
+ Score = 35.8 bits (81),  Expect = 2.3, Method: Compositional matrix adjust.
  Identities = 32/129 (25%), Positives = 51/129 (40%), Gaps = 39/129 (30%)
 
 Query  546  IAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVT  605
@@ -1916,7 +1910,7 @@ Query  652  VGIISLSDI  660
 Sbjct  475  IGIIDSEDI  483
 
 
- Score = 34.7 bits (78),  Expect = 4.6, Method: Compositional matrix adjust.
+ Score = 34.7 bits (78),  Expect = 4.1, Method: Compositional matrix adjust.
  Identities = 17/41 (41%), Positives = 22/41 (54%), Gaps = 0/41 (0%)
 
 Query  551  PDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINL  591
@@ -1924,11 +1918,11 @@ Query  551  PDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINL  591
 Sbjct  446  PDEPIVAAAKRMERHSISALPVVDEKNRLIGIIDSEDINRL  486
 
 
->Q9LEV3 CBS domain-containing protein CBSX3, mitochondrial OS=Arabidopsis 
-thaliana OX=3702 GN=CBSX3 PE=1 SV=1
+>Q9LEV3.1 RecName: Full=CBS domain-containing protein CBSX3, mitochondrial; 
+Flags: Precursor [Arabidopsis thaliana]
 Length=206
 
- Score = 34.3 bits (77),  Expect = 3.6, Method: Composition-based stats.
+ Score = 34.3 bits (77),  Expect = 3.2, Method: Composition-based stats.
  Identities = 23/106 (22%), Positives = 53/106 (50%), Gaps = 7/106 (7%)
 
 Query  475  SPDASLFDAVYSLIKNKIHRLPVIDPISGNALY-ILTHKRILKFLQLFMSDMPKPAFMKQ  533
@@ -1940,11 +1934,11 @@ Query  534  NLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKV  579
 Sbjct  135  IMTE-----ENKLITVTPETKVLRAMQLMTDNRIRHIPVIKDKGMI  175
 
 
->P32987 Uncharacterized 17.7 kDa protein in bps2 3'region OS=Acidianus 
-ambivalens OX=2283 PE=4 SV=1
+>P32987.1 RecName: Full=Uncharacterized 17.7 kDa protein in bps2 
+3'region; AltName: Full=ORF3 [Acidianus ambivalens]
 Length=164
 
- Score = 33.9 bits (76),  Expect = 4.4, Method: Composition-based stats.
+ Score = 33.9 bits (76),  Expect = 3.9, Method: Composition-based stats.
  Identities = 25/117 (21%), Positives = 59/117 (50%), Gaps = 9/117 (8%)
 
 Query  549  IHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQAL  608
@@ -1956,11 +1950,13 @@ Query  609  QHRSQYFEGVVKCNKLEILETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALI  665
 Sbjct  70   KYMTKDVKGVTE--DTEVTDAL-DIMLNNGFRHLPIIKSNGKLYGIVSIRDLARALL  123
 
 
->Q9CAR3 SNF1-related protein kinase regulatory subunit gamma-1-like OS=Arabidopsis 
-thaliana OX=3702 GN=CBSCBS2 PE=1 SV=1
+>Q9CAR3.1 RecName: Full=SNF1-related protein kinase regulatory 
+subunit gamma-1-like; AltName: Full=AKIN subunit gamma-1-like; 
+AltName: Full=CBS domain-containing protein CBSCBS2 [Arabidopsis 
+thaliana]
 Length=447
 
- Score = 34.7 bits (78),  Expect = 4.5, Method: Compositional matrix adjust.
+ Score = 34.7 bits (78),  Expect = 4.0, Method: Compositional matrix adjust.
  Identities = 52/244 (21%), Positives = 100/244 (41%), Gaps = 34/244 (14%)
 
 Query  448  IYELEEHKIETWRELYLQETFKPLVNISPDASLFDAVYSLIKNKIHRLPVIDPISGNALY  507
@@ -1984,12 +1980,12 @@ Query  665  ILTP  668
 Sbjct  426  VSEP  429
 
 
->F7XKY8 Homoserine O-acetyltransferase OS=Methanosalsum zhilinae (strain 
-DSM 4017 / NBRC 107636 / OCM 62 / WeN5) OX=679901 GN=metXA 
-PE=1 SV=1
+>F7XKY8.1 RecName: Full=Homoserine O-acetyltransferase; Short=HAT; 
+AltName: Full=Homoserine transacetylase; Short=HTA [Methanosalsum 
+zhilinae DSM 4017]
 Length=492
 
- Score = 34.7 bits (78),  Expect = 4.7, Method: Compositional matrix adjust.
+ Score = 34.7 bits (78),  Expect = 4.2, Method: Compositional matrix adjust.
  Identities = 35/115 (30%), Positives = 49/115 (43%), Gaps = 20/115 (17%)
 
 Query  471  LVNISPDASLFDAVYSLIKNKIHRLPVI---DPISGNALYILTHKRILKFLQLFMSDMPK  527
@@ -2001,11 +1997,11 @@ Query  528  PAFMKQNLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDI  582
 Sbjct  431  ------TLDRI---LTKNVITSRPDEGIEKCARKMQNNNISALPVIDENRKVIGI  476
 
 
->P9WLQ6 Uncharacterized protein MT1889 OS=Mycobacterium tuberculosis 
-(strain CDC 1551 / Oshkosh) OX=83331 GN=MT1889 PE=3 SV=1
+>P9WLQ6.1 RecName: Full=Uncharacterized protein MT1889 [Mycobacterium 
+tuberculosis CDC1551]
 Length=345
 
- Score = 34.3 bits (77),  Expect = 6.1, Method: Composition-based stats.
+ Score = 34.3 bits (77),  Expect = 5.4, Method: Composition-based stats.
  Identities = 25/100 (25%), Positives = 44/100 (44%), Gaps = 11/100 (11%)
 
 Query  568  SALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQHRSQYFEGVVKCNKLEIL  627
@@ -2017,11 +2013,11 @@ Query  628  ETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILT  667
 Sbjct  299  ADALSRMRRINSHLALVTADNGSVVGMVALEDVVEDLVGT  338
 
 
->P9WLQ7 Uncharacterized protein Rv1841c OS=Mycobacterium tuberculosis 
-(strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1841c PE=1 SV=1
+>P9WLQ7.1 RecName: Full=Uncharacterized protein Rv1841c [Mycobacterium 
+tuberculosis H37Rv]
 Length=345
 
- Score = 34.3 bits (77),  Expect = 6.4, Method: Composition-based stats.
+ Score = 34.3 bits (77),  Expect = 5.7, Method: Composition-based stats.
  Identities = 25/100 (25%), Positives = 44/100 (44%), Gaps = 11/100 (11%)
 
 Query  568  SALPVVDESGKVVDIYSKFDVINLAAEKTYNNLDITVTQALQHRSQYFEGVVKCNKLEIL  627
@@ -2033,11 +2029,11 @@ Query  628  ETIVDRIVRAEVHRLVVVNEADSIVGIISLSDILQALILT  667
 Sbjct  299  ADALSRMRRINSHLALVTADNGSVVGMVALEDVVEDLVGT  338
 
 
->C6H203 MICOS complex subunit MIC60 OS=Ajellomyces capsulatus (strain 
-H143) OX=544712 GN=MIC60 PE=3 SV=1
+>C6H203.1 RecName: Full=MICOS complex subunit MIC60; AltName: 
+Full=Mitofilin; Flags: Precursor [Histoplasma capsulatum H143]
 Length=686
 
- Score = 34.3 bits (77),  Expect = 8.5, Method: Compositional matrix adjust.
+ Score = 34.3 bits (77),  Expect = 7.5, Method: Compositional matrix adjust.
  Identities = 22/50 (44%), Positives = 28/50 (56%), Gaps = 3/50 (6%)
 
 Query  179  PGSPSKGFFSRGPQPRPSSPMSAPVRPKTSPGSPKTVFPFSYQESPPRSP  228
@@ -2045,11 +2041,13 @@ Query  179  PGSPSKGFFSRGPQPRPSSPMSAPVRPKTSPGSPKTVFPFSYQESPPRSP  228
 Sbjct  89   PASPSSRFSLR-PESIPKTPQSPPVQGQTSPGS--EVLPPDHESSTPPPP  135
 
 
->P21879 Inosine-5'-monophosphate dehydrogenase OS=Bacillus subtilis (strain 
-168) OX=224308 GN=guaB PE=1 SV=2
+>P21879.2 RecName: Full=Inosine-5'-monophosphate dehydrogenase; 
+Short=IMP dehydrogenase; Short=IMPD; Short=IMPDH; AltName: 
+Full=Superoxide-inducible protein 12; Short=SOI12 [Bacillus 
+subtilis subsp. subtilis str. 168]
 Length=488
 
- Score = 33.9 bits (76),  Expect = 9.0, Method: Compositional matrix adjust.
+ Score = 33.9 bits (76),  Expect = 7.9, Method: Compositional matrix adjust.
  Identities = 27/118 (23%), Positives = 55/118 (47%), Gaps = 18/118 (15%)
 
 Query  474  ISPDASLFDAVYSLIKNKIHRLPVIDPISGNALYILTHKRILKFLQLF---MSDMPKPAF  530
@@ -2061,6 +2059,18 @@ Query  531  MKQNLDELGIGTYHNIAFIHPDTPIIKALNIFVERRISALPVVDESGKVVDIYSKFDV  588
 Sbjct  158  TKEELVTASVGTTLD-----------EAEKILQKHKIEKLPLVDDQNKLKGLITIKDI  204
 
 
+>Q04723.2 RecName: Full=Aminopeptidase C; AltName: Full=Bleomycin 
+hydrolase [Lactococcus cremoris]
+Length=436
+
+ Score = 33.5 bits (75),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 26/50 (52%), Gaps = 0/50 (0%)
+
+Query  138  EEKTSRTPWG*DLSSFAMPLLDGDLEGSGKHSSRKVDSPFGPGSPSKGFF  187
+            + K  R  +G  L + AM L   DL+  G  +  KV++ +G  +  KG+F
+Sbjct  341  QSKAGRLDYGESLMTHAMVLAGVDLDADGNSTKWKVENSWGKDAGQKGYF  390
+
+
 
 Lambda      K        H        a         alpha
    0.342    0.149    0.490    0.792     4.96 
@@ -2069,13 +2079,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 119433813590
+Effective search space used: 108688899410
 
 
-  Database: swissprot.fasta
-    Posted date:  May 2, 2021  2:41 AM
-  Number of letters in database: 203,519,613
-  Number of sequences in database:  564,638
+  Database: swissprot
+    Posted date:  May 2, 2021  6:20 PM
+  Number of letters in database: 180,412,943
+  Number of sequences in database:  476,364
 
 
 
