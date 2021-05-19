@@ -1,3 +1,3 @@
 # BioInformatica
 
-Aca vamos a poner los TPs de BioInformatica wey, salu3 👌
+Por carpeta se encuentran los ejercicios correspondientes, con sus respectivos instructivos para correrlos
