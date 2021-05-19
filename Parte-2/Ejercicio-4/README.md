@@ -18,4 +18,4 @@ levantar la secuencia original de los hits seleccionados.
 perl Ex4.pl "Pattern"
 ```
 
-Se generará un archivo `FASTA` por cada match del pattern
+Se generará un archivo `FASTA` por cada match del pattern tomando el archivo 0-blast.out del ejercicio 2
