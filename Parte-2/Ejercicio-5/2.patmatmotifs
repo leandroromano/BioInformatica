@@ -1,0 +1,78 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 25 May 2021 23:01:22
+# Commandline: patmatmotifs
+#    -full
+#    -sequence 2.fasta
+#    -outfile 2.patmatmotifs
+# Report_format: dbmotif
+# Report_file: 2.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_001040633     from: 1   to: 1037
+# HitCount: 1
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 157 of sequence
+End = position 160 of sequence
+
+Motif = AMIDATION
+
+LRHAAPGRRPGGFR
+     |  |
+   157  160
+
+
+#---------------------------------------
+#
+# Motif: AMIDATION
+# Count: 1
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# +------------------------------------------------------------------------+
+# PROSITE is copyright.   It  is  produced  by  the  Swiss  Institute   of
+# Bioinformatics (SIB). There are no restrictions on its use by non-profit
+# institutions as long as its  content is in no way modified. Usage by and
+# for commercial  entities requires a license agreement.   For information
+# about  the  licensing  scheme   send  an  email to license@isb-sib.ch or
+# see: http://www.expasy.org/prosite/prosite_license.htm.
+# +------------------------------------------------------------------------+
+# 
+# 
+# ***************
+# 
+#
+#---------------------------------------

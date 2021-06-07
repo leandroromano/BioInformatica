@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Tue 25 May 2021 23:01:02
+# Commandline: patmatmotifs
+#    -full
+#    -sequence 1.fasta
+#    -outfile 1.patmatmotifs
+# Report_format: dbmotif
+# Report_file: 1.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_001040633     from: 1   to: 1037
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
